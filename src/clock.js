@@ -188,15 +188,20 @@ export default class {
             month = date.getMonth(),
             day = date.getDate();
 
-        if (dayOfWeek === 0 || JapaneseHolidays.isHoliday(date) ||
+        if (JapaneseHolidays.isHoliday(date) ||
             (month === 11 && day >= 30) ||
             (month === 0 && day <= 3)) {
             return 'Holiday';
         }
-        if (dayOfWeek === 6) {
-            return 'Saturday';
-        }
-        return 'Weekday';
+        return [
+            "Sunday",
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+        ][dayOfWeek];
     }
 
 }

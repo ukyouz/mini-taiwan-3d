@@ -1,26 +1,26 @@
 module.exports = {
   dest: 'build/docs/master',
-  title: 'Mini Tokyo 3D',
+  title: 'Mini Taiwan 3D',
   base: '/docs/master/',
   locales: {
     '/': {
       lang: 'en-US',
-      description: 'A real-time 3D digital map of Tokyo\'s public transport system'
+      description: 'A real-time 3D digital map of Taiwan\'s public transport system'
     },
     '/ja/': {
       lang: 'ja-JP',
-      description: '東京の公共交通のリアルタイム3Dデジタルマップ'
+      description: '台湾の公共交通のリアルタイム3Dデジタルマップ'
     }
   },
   head: [
     ['meta', { name: 'theme-color', content: '#b31166' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-    ['script', { async: true, src: 'https://www.googletagmanager.com/gtag/js?id=G-7NP0LHFG11' }],
-    ['script', {}, ["window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-7NP0LHFG11');"]]
+    ['script', { async: true, src: 'https://www.googletagmanager.com/gtag/js?id=UA-85911040-4' }],
+    ['script', {}, ["window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'UA-85911040-4');"]]
   ],
   themeConfig: {
-    repo: 'nagix/mini-tokyo-3d',
+    repo: 'ukyouz/mini-taiwan-3d',
     editLinks: false,
     docsDir: 'docs',
     logo: '/images/icon.png',
@@ -40,7 +40,7 @@ module.exports = {
           },
           {
             text: 'Live Demo',
-            link: 'https://minitokyo3d.com'
+            link: 'http://127.0.0.1:5500/'
           }
         ],
         sidebar: {
@@ -111,7 +111,7 @@ module.exports = {
           },
           {
             text: 'ライブデモ',
-            link: 'https://minitokyo3d.com'
+            link: 'http://127.0.0.1:5500/'
           }
         ],
         sidebar: {

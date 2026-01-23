@@ -136,19 +136,19 @@ export default async function(railwayLookup, stationLookup) {
         })
     )));
 
-    for (const {id, coords, color} of coordinateData.airways) {
-        const airwayFeature = lineString(coords, {
-            id,
-            type: 0,
-            color,
-            width: 8,
-            altitude: 1
-        });
+    // for (const {id, coords, color} of coordinateData.airways) {
+    //     const airwayFeature = lineString(coords, {
+    //         id,
+    //         type: 0,
+    //         color,
+    //         width: 8,
+    //         altitude: 1
+    //     });
 
-        airwayFeature.properties.length = turfLength(airwayFeature);
+    //     airwayFeature.properties.length = turfLength(airwayFeature);
 
-        featureArray.push(airwayFeature);
-    }
+    //     featureArray.push(airwayFeature);
+    // }
 
     saveJSON('build/data/features.json.gz', truncate(featureCollection(featureArray), {precision: 7}));
 

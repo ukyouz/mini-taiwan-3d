@@ -1,6 +1,6 @@
 import {loadJSON, saveJSON, readdir} from './helpers';
 
-function process(data, calendar, postfix) {
+async function process(data, calendar, postfix) {
 
     const filteredData = data.filter(item =>
         item.id.endsWith(`.${calendar}`) || item.id.includes(`.${calendar}.`)
@@ -15,13 +15,19 @@ export default async function() {
 
     const files = await readdir('data/train-timetables');
 
-    const data = [].concat(...await Promise.all(files.map(file =>
-        loadJSON(`data/train-timetables/${file}`)
-    )));
+    const data = [];
 
-    process(data, 'Weekday', 'weekday');
-    process(data, 'Saturday', 'saturday');
-    process(data, 'Holiday', 'sunday-holiday');
-    process(data, 'SaturdayHoliday', 'holiday');
+    for (const file of files) {
+        data.push(...await loadJSON(`data/train-timetables/${file}`));
+    }
+
+    await process(data, 'Monday', 'monday');
+    await process(data, 'Tuesday', 'tuesday');
+    await process(data, 'Wednesday', 'wednesday');
+    await process(data, 'Thursday', 'thursday');
+    await process(data, 'Friday', 'friday');
+    await process(data, 'Saturday', 'saturday');
+    await process(data, 'Sunday', 'sunday');
+    await process(data, 'Holiday', 'holiday');
 
 }

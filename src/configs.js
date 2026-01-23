@@ -149,13 +149,13 @@ const configs = {
     flightUrl: 'https://mini-tokyo.appspot.com/flight',
 
     // Default data URL
-    dataUrl: 'https://minitokyo3d.com/data',
+    dataUrl: 'http://127.0.0.1:5500/data',
 
     // Default data sources
     dataSources: [],
 
     // Route search URL
-    searchUrl: 'https://search.minitokyo3d.com/api/v1/routes',
+    searchUrl: 'http://127.0.0.1:5500/sapi/v1/routes',
 
     // Timestamp when the static data was last updated
     lastStaticUpdate: '2025-12-20 03:00:00',
@@ -167,7 +167,7 @@ const configs = {
     copyright: '© 2019-2026 Akihiko Kusanagi',
 
     // Share URL
-    shareUrl: 'https://minitokyo3d.com',
+    shareUrl: 'http://127.0.0.1:5500/',
 
     // Supported events
     events: [

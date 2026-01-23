@@ -56,19 +56,16 @@ const RAILWAY_SOBURAPID = 'JR-East.SobuRapid';
 const TRAINTYPE_JREAST_LIMITEDEXPRESS = 'JR-East.LimitedExpress';
 
 function getTimetableFileName(clock) {
-    const calendar = clock.getCalendar() === 'Weekday' ? 'weekday' : 'holiday';
+    const calendar = clock.getCalendar().toLowerCase();
 
-    return `timetable-${calendar}.json.gz`;
+    return `timetable-${calendar}.json.gz`
 }
 
 function getExtraTimetableFileNames(clock) {
     const calendar = clock.getCalendar();
 
-    if (calendar === 'Saturday') {
-        return ['timetable-saturday.json.gz'];
-    }
     if (calendar === 'Holiday') {
-        return ['timetable-sunday-holiday.json.gz'];
+        return ['timetable-holiday.json.gz'];
     }
     return [];
 }

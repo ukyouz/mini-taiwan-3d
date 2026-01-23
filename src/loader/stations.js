@@ -41,23 +41,23 @@ export default async function() {
         stationIDLookup[titleJa].push(id);
         stations.push(titleJa);
     }
-    (await Promise.all(stationLists.map(stations =>
-        loadJSON(`${WIKIPEDIA_URL}?${WIKIPEDIA_PARAMS}&titles=${stations.join('|')}`)
-    ))).forEach((result) => {
-        const {pages} = result.query;
+    // (await Promise.all(stationLists.map(stations =>
+    //     loadJSON(`${WIKIPEDIA_URL}?${WIKIPEDIA_PARAMS}&titles=${stations.join('|')}`)
+    // ))).forEach((result) => {
+    //     const {pages} = result.query;
 
-        for (const id in pages) {
-            const {title, thumbnail} = pages[id];
+    //     for (const id in pages) {
+    //         const {title, thumbnail} = pages[id];
 
-            if (thumbnail) {
-                for (const id of stationIDLookup[title]) {
-                    lookup[id].thumbnail = thumbnail.source;
-                }
-            } else if (lookup[id] && lookup[id].coord) {
-                console.log(`No thumbnail: ${id}`);
-            }
-        }
-    });
+    //         if (thumbnail) {
+    //             for (const id of stationIDLookup[title]) {
+    //                 lookup[id].thumbnail = thumbnail.source;
+    //             }
+    //         } else if (lookup[id] && lookup[id].coord) {
+    //             console.log(`No thumbnail: ${id}`);
+    //         }
+    //     }
+    // });
 
     saveJSON('build/data/stations.json.gz', data);
 

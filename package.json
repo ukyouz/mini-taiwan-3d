@@ -87,7 +87,7 @@
   "bugs": {
     "url": "https://github.com/nagix/mini-tokyo-3d/issues"
   },
-  "homepage": "https://minitokyo3d.com",
+  "homepage": "http://127.0.0.1:5500/",
   "jsdelivr": "dist/mini-tokyo-3d.min.js",
   "unpkg": "dist/mini-tokyo-3d.min.js"
 }
