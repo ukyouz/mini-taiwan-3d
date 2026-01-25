@@ -54,6 +54,7 @@
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
     color: #fff;
     pointer-events: auto;
+    text-align: center;
 }
 .mini-tokyo-3d #time {
     font-size: 150%;
@@ -273,10 +274,11 @@
 .mini-tokyo-3d #panel-header {
     position: relative;
     height: 30px;
-    margin: 10px 0;
-    padding: 0 10px;
+    /* margin: 10px 0; */
+    padding: 10px;
     line-height: 30px;
     overflow: hidden;
+    border-bottom: 1px solid rgba(51, 51, 51, 0.7);
 }
 .mini-tokyo-3d #panel-title {
     width: calc(100% - 30px);
@@ -284,15 +286,19 @@
 }
 .mini-tokyo-3d #panel-body {
     height: calc(100% - 50px);
-    margin-top: 10px;
+    /* margin-top: 10px; */
     overflow: auto;
     overscroll-behavior: contain;
     line-height: 130%;
 }
 .mini-tokyo-3d #panel-content{
     position: relative;
-    padding: 0 10px;
+    padding: 0 0px;
     overflow: hidden;
+}
+.mini-tokyo-3d #panel-content > div:not(#timetable-content) {
+    padding: 0 10px;
+    margin: 10px 0;
 }
 .mini-tokyo-3d .windows {
     scrollbar-width: thin;
@@ -337,7 +343,9 @@
 .mini-tokyo-3d .station-row {
     display: table;
     width: 100%;
-    margin: 5px 0;
+    /* margin: 0; */
+    padding: 5px 10px;
+    box-sizing: border-box;
 }
 .mini-tokyo-3d .station-row:last-child {
     margin-bottom: 10px;
@@ -355,6 +363,7 @@
 .mini-tokyo-3d .station-row .station-time-box {
     width: 42px;
     text-align: right;
+    line-height: 1;
 }
 .mini-tokyo-3d .station-row .train-title-box {
     padding-left: 40px;
@@ -423,8 +432,8 @@
     height: 59px;
 }
 .mini-tokyo-3d .station-panel #panel-header {
-    height: 73px;
-    line-height: 24px;
+    /* height: 73px; */
+    /* line-height: 24px; */
     overflow: visible;
 }
 .mini-tokyo-3d .station-panel.station-searching #panel-header,
@@ -453,7 +462,7 @@
 .mini-tokyo-3d .station-content-selector {
     width: 100%;
     margin-top: 10px;
-    display: table;
+    display: none;
     border-radius: 10px;
     box-shadow: 0 0 0 1px #777;
 }
@@ -834,16 +843,16 @@
     background: no-repeat right 10px center/19px svg-load('../../node_modules/@fortawesome/fontawesome-free/svgs/solid/magnifying-glass.svg', fill: #333);
 }
 .mini-tokyo-3d .mapboxgl-ctrl button.mapboxgl-ctrl-underground .mapboxgl-ctrl-icon {
-    background: no-repeat center/23px svg-load('../../node_modules/@fortawesome/fontawesome-free/svgs/solid/eye.svg', fill: #333);
+    background: no-repeat center/23px svg-load('../../node_modules/@fortawesome/fontawesome-free/svgs/solid/car-tunnel.svg', fill: #333);
 }
 .mini-tokyo-3d .mapboxgl-ctrl button.mapboxgl-ctrl-underground-visible .mapboxgl-ctrl-icon {
-    background-image: svg-load('../../node_modules/@fortawesome/fontawesome-free/svgs/solid/eye.svg', fill: #33B5E5);
+    background-image: svg-load('../../node_modules/@fortawesome/fontawesome-free/svgs/solid/car-tunnel.svg', fill: #33B5E5);
 }
 .mini-tokyo-3d .mapboxgl-ctrl button.mapboxgl-ctrl-playback .mapboxgl-ctrl-icon {
-    background: no-repeat center/21px svg-load('../../node_modules/@fortawesome/fontawesome-free/svgs/solid/circle-play.svg', fill: #333);
+    background: no-repeat center/21px svg-load('../../node_modules/@fortawesome/fontawesome-free/svgs/solid/stopwatch.svg', fill: #333);
 }
 .mini-tokyo-3d .mapboxgl-ctrl button.mapboxgl-ctrl-playback-active .mapboxgl-ctrl-icon {
-    background-image: svg-load('../../node_modules/@fortawesome/fontawesome-free/svgs/solid/circle-play.svg', fill: #33B5E5);
+    background-image: svg-load('../../node_modules/@fortawesome/fontawesome-free/svgs/solid/stopwatch.svg', fill: #33B5E5);
 }
 .mini-tokyo-3d .mapboxgl-ctrl button.mapboxgl-ctrl-eco .mapboxgl-ctrl-icon {
     background: no-repeat center/21px svg-load('../../node_modules/@fortawesome/fontawesome-free/svgs/solid/battery-three-quarters.svg', fill: #333);
@@ -1048,12 +1057,13 @@
 }
 .mini-tokyo-3d .card-title {
     background: rgba(51, 51, 51, 0.7);
-    color: #fff;
+    color: #a0a0a0;
+    font-weight: bold;
     display: block;
     padding: 4px;
 }
 .mini-tokyo-3d .card-body {
-    border: 1px solid rgba(51, 51, 51, 0.7);
+    /* border: 1px solid rgba(51, 51, 51, 0.7); */
     margin-bottom: 10px;
     padding: 0 4px;
 }
@@ -1081,7 +1091,7 @@
     border-color: #33B5E5;
 }
 .mini-tokyo-3d .tracking-mode-row {
-    height: 60px;
+    /* height: 60px; */
 }
 .mini-tokyo-3d .tracking-mode-row div {
     display: inline-block;

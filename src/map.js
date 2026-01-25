@@ -1017,13 +1017,15 @@ export default class extends Evented {
         me.aboutPanel = new AboutPanel();
 
         if (me.configControl) {
-            map.addControl(new MapboxGLButtonControl([{
-                className: 'mapboxgl-ctrl-layers',
-                title: dict['select-layers'],
-                eventHandler() {
-                    me.layerPanel.addTo(me);
-                }
-            }, {
+            map.addControl(new MapboxGLButtonControl([
+            // {
+            //     className: 'mapboxgl-ctrl-layers',
+            //     title: dict['select-layers'],
+            //     eventHandler() {
+            //         me.layerPanel.addTo(me);
+            //     }
+            // },
+            {
                 className: 'mapboxgl-ctrl-tracking-mode',
                 title: dict['select-tracking-mode'],
                 eventHandler() {
