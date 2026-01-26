@@ -98,11 +98,11 @@ const configs = {
     // Fade duration when an object is added or removed
     fadeDuration: 1000,
 
-    // Origin of coordinates (around Tokyo station)
-    defaultCenter: [139.7670, 35.6814],
+    // Origin of coordinates (around Taipei station)
+    defaultCenter: [121.515079, 25.045121],
 
     // Default zoom level
-    defaultZoom: 14,
+    defaultZoom: 13,
 
     // Default bearing (rotation) of the map
     defaultBearing: 0,
@@ -158,13 +158,13 @@ const configs = {
     searchUrl: 'http://127.0.0.1:5500/sapi/v1/routes',
 
     // Timestamp when the static data was last updated
-    lastStaticUpdate: '2025-12-20 03:00:00',
+    lastStaticUpdate: '2026-01-25',
 
     // String to show in an Mapbox's AttributionControl
-    customAttribution: '<a href="https://github.com/nagix/mini-tokyo-3d">© Akihiko Kusanagi</a>',
+    customAttribution: '<a href="https://github.com/ukyouz/mini-taiwan-3d">© Jonny Cheng</a>',
 
     // Copyright string
-    copyright: '© 2019-2026 Akihiko Kusanagi',
+    copyright: '© 2019-2026 Jonny Cheng',
 
     // Share URL
     shareUrl: 'http://127.0.0.1:5500/',

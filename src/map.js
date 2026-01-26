@@ -148,11 +148,7 @@ export default class extends Evented {
             });
         });
 
-        const clockPromise = options.center === configs.defaultCenter ?
-            new Promise(resolve => {
-                resolve(me.clock);
-            }) :
-            helpersMapbox.fetchTimezoneOffset(options.center, options.accessToken)
+        const clockPromise = helpersMapbox.fetchTimezoneOffset(options.center, options.accessToken)
                 .then(offset => me.clock.setTimezoneOffset(offset));
 
         Promise.all([

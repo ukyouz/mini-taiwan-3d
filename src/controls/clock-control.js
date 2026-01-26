@@ -217,7 +217,7 @@ export default class extends Evented {
                 dateString = dateString.replace(/\(.+\)/, '(祝)');
             }
             element.querySelector('#date').innerHTML = dateString;
-            element.querySelector('#time').innerHTML = date.toLocaleTimeString(lang);
+            element.querySelector('#time').innerHTML = date.toLocaleTimeString(lang, {hour12: 12}) + "<small>+8</small>";
         } else {
             const tempDate = me._tempDate;
 

@@ -36,7 +36,7 @@
     "helicopter": "Hélicoptère",
     "drone": "Drone",
     "bird": "Oiseau",
-    "about": "À propos de Mini Tokyo 3D",
+    "about": "À propos de Mini Taiwan 3D",
 
     "share-this": "Partager ce $1",
     "train": "train",
@@ -90,7 +90,7 @@
     "transfer-and-wait": "Faite la correspondance et veuillez attendre $1 min",
     "cannot-find-train": "Impossible de trouver un train qui arrive ce jour-là",
 
-    "description": "<h3>À propos de Mini Tokyo 3D</h3><p>Cette visualisation de données est fournie par <a href=\"https://nagix.github.io\" target=\"_blank\">Akihiko Kusanagi</a>. La source des données sur les transports publics pour cette application provienne de <a href=\"https://www.odpt.org\" target=\"_blank\">Public Transportation Open Data Center</a>. Ils sont basés sur les données fournies par les opérateurs du transport public. L'exactitude et l'intégrité des données ne sont pas garanties. Veuillez ne pas contacter directement les opérateurs de transport public concernant le contenu de l'application.</p><p>Pour plus d'informations, veuillez consulter le <a href=\"https://minitokyo3d.com/docs/master/\" target=\"_blank\">Guide d'utilisation de Mini Tokyo 3D</a>. Le code source est disponible sur <a href=\"https://github.com/nagix/mini-tokyo-3d\" target=\"_blank\">Référentiel GitHub</a>.</p>",
+    "description": "<h3>À propos de Mini Taiwan 3D</h3><p>Cette visualisation de données est fournie par <a href=\"https://nagix.github.io\" target=\"_blank\">Akihiko Kusanagi</a>. La source des données sur les transports publics pour cette application provienne de <a href=\"https://tdx.transportdata.tw/https://tdx.transportdata.tw/\" target=\"_blank\">Public Transportation Open Data Center</a>. Ils sont basés sur les données fournies par les opérateurs du transport public. L'exactitude et l'intégrité des données ne sont pas garanties. Veuillez ne pas contacter directement les opérateurs de transport public concernant le contenu de l'application.</p><p>Pour plus d'informations, veuillez consulter le <a href=\"https://minitokyo3d.com/docs/master/\" target=\"_blank\">Guide d'utilisation de Mini Taiwan 3D</a>. Le code source est disponible sur <a href=\"https://github.com/ukyouz/mini-taiwan-3d\" target=\"_blank\">Référentiel GitHub</a>.</p>",
     "static-update": "Dernière mise à jour des données statiques",
     "dynamic-update": "Dernière mise à jour des données dynamiques",
     "gtfs-feed-version": "Version du flux GTFS",

@@ -1,10 +1,10 @@
 {
-  "name": "mini-tokyo-3d",
+  "name": "mini-taiwan-3d",
   "version": "4.0.0-beta.2",
-  "description": "A real-time 3D digital map of Tokyo's public transport system",
-  "main": "dist/mini-tokyo-3d.js",
-  "module": "dist/mini-tokyo-3d.esm.js",
-  "style": "dist/mini-tokyo-3d.css",
+  "description": "A real-time 3D digital map of Taiwan's public transport system",
+  "main": "dist/mini-taiwan-3d.js",
+  "module": "dist/mini-taiwan-3d.esm.js",
+  "style": "dist/mini-taiwan-3d.css",
   "dependencies": {
     "@deck.gl/core": "^8.9.36",
     "@deck.gl/geo-layers": "^8.9.36",
@@ -66,7 +66,7 @@
   },
   "scripts": {
     "build": "rollup -c",
-    "build-pages": "rm -rf build; cp -r public build; cp .npmignore dist/mini-tokyo-3d.min.* build; mkdir -p build/assets; cp assets/dictionary-*.json assets/style.json build/assets",
+    "build-pages": "rm -rf build; cp -r public build; cp .npmignore dist/mini-taiwan-3d.min.* build; mkdir -p build/assets; cp assets/dictionary-*.json assets/style.json build/assets",
     "build-data": "rm -rf build/data; mkdir -p build/data; cp assets/dictionary-*.json assets/osm-liberty.json build/data; node dist/loader",
     "build-all": "run-s build build-pages build-data docs",
     "docs": "vuepress build docs --no-cache",
@@ -75,19 +75,19 @@
   },
   "files": [
     "build/",
-    "dist/mini-tokyo-3d.*",
+    "dist/mini-taiwan-3d.*",
     "src/"
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/nagix/mini-tokyo-3d.git"
+    "url": "git+https://github.com/ukyouz/mini-taiwan-3d.git"
   },
-  "author": "Akihiko Kusanagi",
+  "author": "Jonny Cheng",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nagix/mini-tokyo-3d/issues"
+    "url": "https://github.com/ukyouz/mini-taiwan-3d/issues"
   },
-  "homepage": "http://127.0.0.1:5500/",
-  "jsdelivr": "dist/mini-tokyo-3d.min.js",
-  "unpkg": "dist/mini-tokyo-3d.min.js"
+  "homepage": "https://zhung.com.tw/mini-taiwan-3d/",
+  "jsdelivr": "dist/mini-taiwan-3d.min.js",
+  "unpkg": "dist/mini-taiwan-3d.min.js"
 }

@@ -36,7 +36,7 @@
 	"helicopter": "Helicóptero",
 	"drone": "Drone",
 	"bird": "Pássaro",
-	"about": "Sobre o Mini Tokyo 3D",
+	"about": "Sobre o Mini Taiwan 3D",
 
 	"share-this": "Compartilhar esse $1",
 	"train": "trem",
@@ -90,7 +90,7 @@
 	"transfer-and-wait": "Transferência & aguardar por $1 min",
 	"cannot-find-train": "Não é possível encontrar um trem que chegue neste dia",
 
-	"description": "<h3>Sobre Mini Tokyo 3D</h3><p>Essa visualização de dados é fornecida por <a href=\"https://nagix.github.io\" target=\"_blank\">Akihiko Kusanagi</a>. A fonte dos dados de transporte público neste aplicativo é o <a href=\"https://www.odpt.org\" target=\"_blank\">Public Transportation Open Data Center</a>. Eles são baseados nos dados fornecidos pelos operadores de transporte público. A precisão e integridade dos dados não são garantidas. Por favor, não entre em contato diretamente com os operadores de transporte público sobre o conteúdo do aplicativo.</p><p>Para mais informações, consulte o <a href=\"https://minitokyo3d.com/docs/master/\" target=\"_blank\">Guia de usuário Mini Tokyo 3D</a>. O código-fonte está disponível no <a href=\"https://github.com/nagix/mini-tokyo-3d\" target=\"_blank\">repositório do GitHub</a>.</p>",
+	"description": "<h3>Sobre Mini Taiwan 3D</h3><p>Essa visualização de dados é fornecida por <a href=\"https://nagix.github.io\" target=\"_blank\">Akihiko Kusanagi</a>. A fonte dos dados de transporte público neste aplicativo é o <a href=\"https://tdx.transportdata.tw/https://tdx.transportdata.tw/\" target=\"_blank\">Public Transportation Open Data Center</a>. Eles são baseados nos dados fornecidos pelos operadores de transporte público. A precisão e integridade dos dados não são garantidas. Por favor, não entre em contato diretamente com os operadores de transporte público sobre o conteúdo do aplicativo.</p><p>Para mais informações, consulte o <a href=\"https://minitokyo3d.com/docs/master/\" target=\"_blank\">Guia de usuário Mini Taiwan 3D</a>. O código-fonte está disponível no <a href=\"https://github.com/ukyouz/mini-taiwan-3d\" target=\"_blank\">repositório do GitHub</a>.</p>",
 	"static-update": "Última atualização dos dados estáticos",
 	"dynamic-update": "Última atualização dos dados dinâmicos",
 	"gtfs-feed-version": "Versão do feed GTFS",
