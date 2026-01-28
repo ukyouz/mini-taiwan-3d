@@ -458,5 +458,32 @@
             "TR.WL-C.Zhuifen",
             "TR.WL-C.Changhua"
         ]
+    },
+    {
+        "id": "THSR.Main",
+        "title": {
+            "en": "Main Line",
+            "zh-Hant": "幹線",
+            "ja": "幹線"
+        },
+        "ascending": "Southbound",
+        "descending": "Northbound",
+        "color": "#CB4F0F",
+        "carComposition": 10,
+        "dynamic": true,
+        "stations": [
+            "THSR.Main.Nangang",
+            "THSR.Main.Taipei",
+            "THSR.Main.Banqiao",
+            "THSR.Main.Taoyuan",
+            "THSR.Main.Hsinchu",
+            "THSR.Main.Miaoli",
+            "THSR.Main.Taichung",
+            "THSR.Main.Changhua",
+            "THSR.Main.Yunlin",
+            "THSR.Main.Chiayi",
+            "THSR.Main.Tainan",
+            "THSR.Main.Zuoying"
+        ]
     }
 ]

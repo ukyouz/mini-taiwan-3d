@@ -1428,12 +1428,24 @@ export default class extends Evented {
                 feature = me.featureLookup.get(`${train.r.id}.18`),
                 stationOffsets = feature.properties['station-offsets'],
                 distance = Math.abs(stationOffsets[sectionIndex + sectionLength] - stationOffsets[sectionIndex]),
-                actualDepartureTime = index !== undefined ? Math.max(departureTime + delay, now + (clock.speed === 1 ? minStandingDuration : 0)) : departureTime !== undefined ? departureTime + delay : now;
-            let {maxSpeed, acceleration, maxAccelerationTime, maxAccDistance} = configs,
+                actualDepartureTime = index !== undefined
+                    ? Math.max(departureTime + delay, now + (clock.speed === 1 ? minStandingDuration : 0))
+                    : departureTime !== undefined ? departureTime + delay : now;
+            let {
+                railsWithSpeed2,
+                maxSpeed,
+                maxSpeed2,
+                acceleration,
+                maxAccelerationTime,
+                maxAccelerationTime2,
+                maxAccDistance,
+                maxAccDistance2,
+            } = configs,
                 duration, minDuration, maxDuration, accelerationTime;
 
             if (nextDepartureTime !== undefined) {
                 maxDuration = nextDepartureTime - minStandingDuration + 60000 + delay - minDelay - actualDepartureTime;
+                minDuration = nextDepartureTime + delay - 10000 - minDelay - actualDepartureTime;
             }
             if (arrivalTime !== undefined) {
                 minDuration = arrivalTime + delay - minDelay - actualDepartureTime;
@@ -1442,7 +1454,8 @@ export default class extends Evented {
                 }
             }
 
-            if (distance <= maxAccDistance * 2) {
+            let _mad = railsWithSpeed2.indexOf(train.r.id) >= 0 ? maxAccDistance2 : maxAccDistance;
+            if (distance <= _mad * 2) {
                 duration = Math.sqrt(distance / acceleration) * 2;
                 if (maxDuration > 0) {
                     duration = helpers.clamp(duration, minDuration || 0, maxDuration);
@@ -1450,18 +1463,20 @@ export default class extends Evented {
                 }
                 accelerationTime = duration / 2;
             } else {
-                duration = maxAccelerationTime * 2 + (distance - maxAccDistance * 2) / maxSpeed;
+                let _ms = railsWithSpeed2.indexOf(train.r.id) >= 0 ? maxSpeed2 : maxSpeed;
+                let _mat = railsWithSpeed2.indexOf(train.r.id) >= 0 ? maxAccelerationTime2 : maxAccelerationTime;
+                duration = _mat * 2 + (distance - _mad * 2) / _ms;
                 if (maxDuration > 0) {
                     duration = helpers.clamp(duration, minDuration || 0, maxDuration);
-                    maxAccDistance = acceleration * duration * duration / 8;
-                    if (distance >= maxAccDistance * 2) {
-                        maxSpeed = distance * 2 / duration;
-                        acceleration = maxSpeed * 2 / duration;
+                    _mad = acceleration * duration * duration / 8;
+                    if (distance >= _mad * 2) {
+                        _ms = distance * 2 / duration;
+                        acceleration = _ms * 2 / duration;
                     } else {
-                        maxSpeed = acceleration * duration / 2 - Math.sqrt(acceleration * (maxAccDistance * 2 - distance));
+                        _ms = acceleration * duration / 2 - Math.sqrt(acceleration * (_mad * 2 - distance));
                     }
                 }
-                accelerationTime = maxSpeed / acceleration;
+                accelerationTime = _ms / acceleration;
             }
             me.trafficLayer.updateObject(train, actualDepartureTime, duration, accelerationTime, acceleration / distance, accelerationTime, acceleration / distance);
 

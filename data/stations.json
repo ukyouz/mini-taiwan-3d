@@ -2155,7 +2155,8 @@
             "en": "Banqiao",
             "zh-Hant": "板橋",
             "ja": "板橋"
-        }
+        },
+        "altitude": -1
     },
     {
         "id": "TR.WL-N.Wanhua",
@@ -2168,7 +2169,8 @@
             "en": "Wanhua",
             "zh-Hant": "萬華",
             "ja": "萬華"
-        }
+        },
+        "altitude": -1
     },
     {
         "id": "TR.WL-N.TaipeiSurroundIsland",
@@ -2194,7 +2196,8 @@
             "en": "Taipei",
             "zh-Hant": "臺北",
             "ja": "臺北"
-        }
+        },
+        "altitude": -1
     },
     {
         "id": "TR.WL-N.Songshan",
@@ -2207,7 +2210,8 @@
             "en": "Songshan",
             "zh-Hant": "松山",
             "ja": "松山"
-        }
+        },
+        "altitude": -1
     },
     {
         "id": "TR.WL-N.Nangang",
@@ -2220,7 +2224,8 @@
             "en": "Nangang",
             "zh-Hant": "南港",
             "ja": "南港"
-        }
+        },
+        "altitude": -1
     },
     {
         "id": "TR.WL-N.Xike",
@@ -3351,7 +3356,8 @@
             "en": "Taipei",
             "zh-Hant": "臺北",
             "ja": "臺北"
-        }
+        },
+        "altitude": -1
     },
     {
         "id": "TR.EL.Songshan",
@@ -3364,7 +3370,8 @@
             "en": "Songshan",
             "zh-Hant": "松山",
             "ja": "松山"
-        }
+        },
+        "altitude": -1
     },
     {
         "id": "TR.EL.Nangang",
@@ -3377,7 +3384,8 @@
             "en": "Nangang",
             "zh-Hant": "南港",
             "ja": "南港"
-        }
+        },
+        "altitude": -1
     },
     {
         "id": "TR.EL.Xike",
@@ -3442,6 +3450,165 @@
             "en": "Qidu",
             "zh-Hant": "七堵",
             "ja": "七堵"
+        }
+    },
+    {
+        "id": "THSR.Main.Nangang",
+        "railway": "THSR.Main",
+        "coord": [
+            121.60709,
+            25.053704
+        ],
+        "title": {
+            "en": "Nangang",
+            "zh-Hant": "南港",
+            "ja": "南港"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "THSR.Main.Taipei",
+        "railway": "THSR.Main",
+        "coord": [
+            121.516983,
+            25.04767
+        ],
+        "title": {
+            "en": "Taipei",
+            "zh-Hant": "台北",
+            "ja": "台北"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "THSR.Main.Banqiao",
+        "railway": "THSR.Main",
+        "coord": [
+            121.4638,
+            25.014214
+        ],
+        "title": {
+            "en": "Banqiao",
+            "zh-Hant": "板橋",
+            "ja": "板橋"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "THSR.Main.Taoyuan",
+        "railway": "THSR.Main",
+        "coord": [
+            121.214729,
+            25.012861
+        ],
+        "title": {
+            "en": "Taoyuan",
+            "zh-Hant": "桃園",
+            "ja": "桃園"
+        }
+    },
+    {
+        "id": "THSR.Main.Hsinchu",
+        "railway": "THSR.Main",
+        "coord": [
+            121.04026,
+            24.808441
+        ],
+        "title": {
+            "en": "Hsinchu",
+            "zh-Hant": "新竹",
+            "ja": "新竹"
+        }
+    },
+    {
+        "id": "THSR.Main.Miaoli",
+        "railway": "THSR.Main",
+        "coord": [
+            120.825272,
+            24.605448
+        ],
+        "title": {
+            "en": "Miaoli",
+            "zh-Hant": "苗栗",
+            "ja": "苗栗"
+        }
+    },
+    {
+        "id": "THSR.Main.Taichung",
+        "railway": "THSR.Main",
+        "coord": [
+            120.615967,
+            24.112484
+        ],
+        "title": {
+            "en": "Taichung",
+            "zh-Hant": "台中",
+            "ja": "台中"
+        }
+    },
+    {
+        "id": "THSR.Main.Changhua",
+        "railway": "THSR.Main",
+        "coord": [
+            120.574608,
+            23.874327
+        ],
+        "title": {
+            "en": "Changhua",
+            "zh-Hant": "彰化",
+            "ja": "彰化"
+        }
+    },
+    {
+        "id": "THSR.Main.Yunlin",
+        "railway": "THSR.Main",
+        "coord": [
+            120.416512,
+            23.736231
+        ],
+        "title": {
+            "en": "Yunlin",
+            "zh-Hant": "雲林",
+            "ja": "雲林"
+        }
+    },
+    {
+        "id": "THSR.Main.Chiayi",
+        "railway": "THSR.Main",
+        "coord": [
+            120.323257,
+            23.459507
+        ],
+        "title": {
+            "en": "Chiayi",
+            "zh-Hant": "嘉義",
+            "ja": "嘉義"
+        }
+    },
+    {
+        "id": "THSR.Main.Tainan",
+        "railway": "THSR.Main",
+        "coord": [
+            120.286201,
+            22.925077
+        ],
+        "title": {
+            "en": "Tainan",
+            "zh-Hant": "台南",
+            "ja": "台南"
+        }
+    },
+    {
+        "id": "THSR.Main.Zuoying",
+        "railway": "THSR.Main",
+        "coord": [
+            120.307487,
+            22.687391
+        ],
+        "title": {
+            "en": "Zuoying",
+            "zh-Hant": "左營",
+            "ja": "左營"
         }
     }
 ]

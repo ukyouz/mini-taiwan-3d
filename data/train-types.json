@@ -438,5 +438,69 @@
             "zh-Hant": "普快",
             "ja": "普快"
         }
+    },
+    {
+        "id": "THSR.0xx",
+        "title": {
+            "en": "Super Express",
+            "zh-Hant": "超級直達",
+            "ja": "スーパー特急"
+        }
+    },
+    {
+        "id": "THSR.1xx",
+        "title": {
+            "en": "Express",
+            "zh-Hant": "直達",
+            "ja": "特急"
+        }
+    },
+    {
+        "id": "THSR.2xx",
+        "title": {
+            "en": "Tainan Express",
+            "zh-Hant": "府城直達",
+            "ja": "台南特急"
+        }
+    },
+    {
+        "id": "THSR.295",
+        "title": {
+            "en": "Airport Express",
+            "zh-Hant": "機場直達",
+            "ja": "空港特急"
+        }
+    },
+    {
+        "id": "THSR.3xx",
+        "title": {
+            "en": "Airport Rapid",
+            "zh-Hant": "板竹苗不停車",
+            "ja": "空港急行"
+        }
+    },
+    {
+        "id": "THSR.5xx",
+        "title": {
+            "en": "Local",
+            "zh-Hant": "區間車（台中分界）",
+            "ja": "区間各停"
+        }
+    },
+    {
+        "id": "THSR.6xx",
+        "title": {
+            "en": "Tainan Rapid",
+            "zh-Hant": "苗彰雲不停車",
+            "ja": "台南急行"
+        }
+    },
+    {
+        "id": "THSR.8xx",
+        "title": {
+            "en": "Local",
+            "zh-Hant": "站站停",
+            "ja": "各停"
+        }
     }
 ]

@@ -93,7 +93,8 @@
         [
             "TR.EL.Taipei",
             "TR.WL-N.Taipei",
-            "TR.WL-N.TaipeiSurroundIsland"
+            "TR.WL-N.TaipeiSurroundIsland",
+            "THSR.Main.Taipei"
         ]
     ],
     [
@@ -105,7 +106,8 @@
     [
         [
             "TR.EL.Nangang",
-            "TR.WL-N.Nangang"
+            "TR.WL-N.Nangang",
+            "THSR.Main.Nangang"
         ]
     ],
     [
@@ -142,6 +144,50 @@
         [
             "TR.EL.Badu",
             "TR.WL-N.Badu"
+        ]
+    ],
+    [
+        [
+            "TR.WL-N.Banqiao",
+            "THSR.Main.Banqiao"
+        ]
+    ],
+    [
+        [
+            "TR.LJ.Liujia"
+        ],
+        [
+            "THSR.Main.Hsinchu"
+        ]
+    ],
+    [
+        [
+            "TR.WL-N.Fengfu"
+        ],
+        [
+            "THSR.Main.Miaoli"
+        ]
+    ],
+    [
+        [
+            "TR.WL-S.Xinwuri"
+        ],
+        [
+            "THSR.Main.Taichung"
+        ]
+    ],
+    [
+        [
+            "TR.SH.Shalun"
+        ],
+        [
+            "THSR.Main.Tainan"
+        ]
+    ],
+    [
+        [
+            "TR.WL-S.Xinzuoying",
+            "THSR.Main.Zuoying"
         ]
     ]
 ]

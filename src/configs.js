@@ -18,8 +18,15 @@ const configs = {
     // Interval of checking train and bus positions based on real-time data in milliseconds
     realtimeCheckInterval: 15000,
 
+    railsWithSpeed2: [
+        'THSR.Main',
+    ],
+
     // Maximum train speed in km/h
     maxSpeedKMPH: 80,
+
+    // Maximum train speed in km/h for high speed railway
+    maxSpeed2KMPH: 300,
 
     // Train acceleration in km/h/s
     accelerationKMPHPS: 3,
@@ -27,6 +34,11 @@ const configs = {
     // Maximum train speed in km/ms
     get maxSpeed() {
         return configs.maxSpeedKMPH / 3600000;
+    },
+
+    // Maximum high speed train speed in km/ms
+    get maxSpeed2() {
+        return configs.maxSpeed2KMPH / 3600000;
     },
 
     // Train acceleration in km/ms^2
@@ -39,9 +51,19 @@ const configs = {
         return configs.maxSpeed / configs.acceleration;
     },
 
+    // Time required to reach maximum high speed train speed in milliseconds
+    get maxAccelerationTime2() {
+        return configs.maxSpeed2 / configs.acceleration;
+    },
+
     // Distance required to reach maximum train speed in kilometers
     get maxAccDistance() {
         return configs.maxAccelerationTime * configs.maxSpeed / 2;
+    },
+
+    // Distance required to reach maximum high speed train speed in kilometers
+    get maxAccDistance2() {
+        return configs.maxAccelerationTime2 * configs.maxSpeed2 / 2;
     },
 
     // Maximum flight speed in km/h
