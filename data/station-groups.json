@@ -91,10 +91,17 @@
     ],
     [
         [
+            "TRTC.G.Beimen"
+        ],
+        [
             "TR.EL.Taipei",
             "TR.WL-N.Taipei",
             "TR.WL-N.TaipeiSurroundIsland",
             "THSR.Main.Taipei"
+        ],
+        [
+            "TRTC.BL.TaipeiMainStation",
+            "TRTC.R.TaipeiMainStation"
         ]
     ],
     [
@@ -107,7 +114,8 @@
         [
             "TR.EL.Nangang",
             "TR.WL-N.Nangang",
-            "THSR.Main.Nangang"
+            "THSR.Main.Nangang",
+            "TRTC.BL.Nangang"
         ]
     ],
     [
@@ -148,8 +156,17 @@
     ],
     [
         [
+            "TRTC.BL.Banqiao",
             "TR.WL-N.Banqiao",
             "THSR.Main.Banqiao"
+        ]
+    ],
+    [
+        [
+            "TR.WL-N.Songshan"
+        ],
+        [
+            "TRTC.G.Songshan"
         ]
     ],
     [
@@ -188,6 +205,145 @@
         [
             "TR.WL-S.Xinzuoying",
             "THSR.Main.Zuoying"
+        ]
+    ],
+    [
+        [
+            "TRTC.BL.ZhongxiaoXinsheng",
+            "TRTC.O-Huilong.ZhongxiaoXinsheng",
+            "TRTC.O-Luzhou.ZhongxiaoXinsheng"
+        ]
+    ],
+    [
+        [
+            "TRTC.BL.ZhongxiaoFuxing"
+        ],
+        [
+            "TRTC.BR.ZhongxiaoFuxing"
+        ]
+    ],
+    [
+        [
+            "TRTC.BL.TaipeiNangangExhibitionCenter"
+        ],
+        [
+            "TRTC.BR.TaipeiNangangExhibitionCenter"
+        ]
+    ],
+    [
+        [
+            "TRTC.R.Daan"
+        ],
+        [
+            "TRTC.BR.Daan"
+        ]
+    ],
+    [
+        [
+            "TRTC.R.Dongmen",
+            "TRTC.O-Huilong.Dongmen",
+            "TRTC.O-Luzhou.Dongmen"
+        ]
+    ],
+    [
+        [
+            "TRTC.R.Zhongshan",
+            "TRTC.G.Zhongshan"
+        ]
+    ],
+    [
+        [
+            "TRTC.R.ChiangKai-ShekMemorialHall",
+            "TRTC.G.ChiangKai-ShekMemorialHall"
+        ]
+    ],
+    [
+        [
+            "TRTC.O-Huilong.Guting",
+            "TRTC.O-Luzhou.Guting",
+            "TRTC.G.Guting"
+        ]
+    ],
+    [
+        [
+            "TRTC.G.NanjingFuxing"
+        ],
+        [
+            "TRTC.BR.NanjingFuxing"
+        ]
+    ],
+    [
+        [
+            "TRTC.G.Ximen",
+            "TRTC.BL.Ximen"
+        ]
+    ],
+    [
+        [
+            "TRTC.G.SongjiangNanjing",
+            "TRTC.O-Huilong.SongjiangNanjing",
+            "TRTC.O-Luzhou.SongjiangNanjing"
+        ]
+    ],
+    [
+        [
+            "TRTC.O-Huilong.MinquanWRd",
+            "TRTC.O-Luzhou.MinquanWRd",
+            "TRTC.R.MinquanWRd"
+        ]
+    ],
+    [
+        [
+            "TRTC.O-Huilong.Nanshijiao",
+            "TRTC.O-Luzhou.Nanshijiao"
+        ]
+    ],
+    [
+        [
+            "TRTC.O-Huilong.Jingan",
+            "TRTC.O-Luzhou.Jingan"
+        ]
+    ],
+    [
+        [
+            "TRTC.O-Huilong.YonganMarket",
+            "TRTC.O-Luzhou.YonganMarket"
+        ]
+    ],
+    [
+        [
+            "TRTC.O-Huilong.Dingxi",
+            "TRTC.O-Luzhou.Dingxi"
+        ]
+    ],
+    [
+        [
+            "TRTC.O-Huilong.XingtianTemple",
+            "TRTC.O-Luzhou.XingtianTemple"
+        ]
+    ],
+    [
+        [
+            "TRTC.O-Huilong.ZhongshanElementarySchool",
+            "TRTC.O-Luzhou.ZhongshanElementarySchool"
+        ]
+    ],
+    [
+        [
+            "TRTC.O-Huilong.Daqiaotou",
+            "TRTC.O-Luzhou.Daqiaotou"
+        ]
+    ],
+    [
+        [
+            "TRTC.G.Qizhang",
+            "TRTC.G-Xiaobitan.Qizhang"
+        ]
+    ],
+    [
+        [
+            "TRTC.R.Beitou",
+            "TRTC.R-Xinbeitou.Beitou"
         ]
     ]
 ]

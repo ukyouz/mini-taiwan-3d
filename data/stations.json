@@ -2394,7 +2394,8 @@
             "en": "Fongshan",
             "zh-Hant": "鳳山",
             "ja": "鳳山"
-        }
+        },
+        "altitude": -1
     },
     {
         "id": "TR.WL-S.Zhengyi",
@@ -2407,7 +2408,8 @@
             "en": "Zhengyi",
             "zh-Hant": "正義",
             "ja": "正義"
-        }
+        },
+        "altitude": -1
     },
     {
         "id": "TR.WL-S.ScienceAndTechnologyMuseum",
@@ -2420,7 +2422,8 @@
             "en": "Science And Technology Museum",
             "zh-Hant": "科工館",
             "ja": "科工館"
-        }
+        },
+        "altitude": -1
     },
     {
         "id": "TR.WL-S.Minzu",
@@ -2433,7 +2436,8 @@
             "en": "Minzu",
             "zh-Hant": "民族",
             "ja": "民族"
-        }
+        },
+        "altitude": -1
     },
     {
         "id": "TR.WL-S.Kaohsiung",
@@ -2446,7 +2450,8 @@
             "en": "Kaohsiung",
             "zh-Hant": "高雄",
             "ja": "高雄"
-        }
+        },
+        "altitude": -1
     },
     {
         "id": "TR.WL-S.Sankuaicuo",
@@ -2459,7 +2464,8 @@
             "en": "Sankuaicuo",
             "zh-Hant": "三塊厝",
             "ja": "三塊厝"
-        }
+        },
+        "altitude": -1
     },
     {
         "id": "TR.WL-S.Gushan",
@@ -2472,7 +2478,8 @@
             "en": "Gushan",
             "zh-Hant": "鼓山",
             "ja": "鼓山"
-        }
+        },
+        "altitude": -1
     },
     {
         "id": "TR.WL-S.MuseumofFineArts",
@@ -2485,7 +2492,8 @@
             "en": "Museum of Fine Arts",
             "zh-Hant": "美術館",
             "ja": "美術館"
-        }
+        },
+        "altitude": -1
     },
     {
         "id": "TR.WL-S.Neiwei",
@@ -2498,7 +2506,8 @@
             "en": "Neiwei",
             "zh-Hant": "內惟",
             "ja": "內惟"
-        }
+        },
+        "altitude": -1
     },
     {
         "id": "TR.WL-S.Zuoying",
@@ -2511,7 +2520,8 @@
             "en": "Zuoying",
             "zh-Hant": "左營",
             "ja": "左營"
-        }
+        },
+        "altitude": -1
     },
     {
         "id": "TR.WL-S.Xinzuoying",
@@ -3505,7 +3515,8 @@
             "en": "Taoyuan",
             "zh-Hant": "桃園",
             "ja": "桃園"
-        }
+        },
+        "altitude": -1
     },
     {
         "id": "THSR.Main.Hsinchu",
@@ -3609,6 +3620,1856 @@
             "en": "Zuoying",
             "zh-Hant": "左營",
             "ja": "左營"
+        }
+    },
+    {
+        "id": "TRTC.BL.Dingpu",
+        "railway": "TRTC.BL",
+        "coord": [
+            121.418744,
+            24.959351
+        ],
+        "title": {
+            "en": "Dingpu",
+            "zh-Hant": "頂埔",
+            "ja": "頂埔"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.BL.Yongning",
+        "railway": "TRTC.BL",
+        "coord": [
+            121.43613,
+            24.96682
+        ],
+        "title": {
+            "en": "Yongning",
+            "zh-Hant": "永寧",
+            "ja": "永寧"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.BL.Tucheng",
+        "railway": "TRTC.BL",
+        "coord": [
+            121.44432,
+            24.97313
+        ],
+        "title": {
+            "en": "Tucheng",
+            "zh-Hant": "土城",
+            "ja": "土城"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.BL.Haishan",
+        "railway": "TRTC.BL",
+        "coord": [
+            121.448787,
+            24.985348
+        ],
+        "title": {
+            "en": "Haishan",
+            "zh-Hant": "海山",
+            "ja": "海山"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.BL.FarEasternHospital",
+        "railway": "TRTC.BL",
+        "coord": [
+            121.452465,
+            24.99828
+        ],
+        "title": {
+            "en": "Far Eastern Hospital",
+            "zh-Hant": "亞東醫院",
+            "ja": "亞東醫院"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.BL.Fuzhong",
+        "railway": "TRTC.BL",
+        "coord": [
+            121.459276,
+            25.008465
+        ],
+        "title": {
+            "en": "Fuzhong",
+            "zh-Hant": "府中",
+            "ja": "府中"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.BL.Banqiao",
+        "railway": "TRTC.BL",
+        "coord": [
+            121.462671,
+            25.014098
+        ],
+        "title": {
+            "en": "Banqiao",
+            "zh-Hant": "板橋",
+            "ja": "板橋"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.BL.Xinpu",
+        "railway": "TRTC.BL",
+        "coord": [
+            121.468363,
+            25.023736
+        ],
+        "title": {
+            "en": "Xinpu",
+            "zh-Hant": "新埔",
+            "ja": "新埔"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.BL.Jiangzicui",
+        "railway": "TRTC.BL",
+        "coord": [
+            121.47257,
+            25.030265
+        ],
+        "title": {
+            "en": "Jiangzicui",
+            "zh-Hant": "江子翠",
+            "ja": "江子翠"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.BL.LongshanTemple",
+        "railway": "TRTC.BL",
+        "coord": [
+            121.500325,
+            25.03528
+        ],
+        "title": {
+            "en": "Longshan Temple",
+            "zh-Hant": "龍山寺",
+            "ja": "龍山寺"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.BL.Ximen",
+        "railway": "TRTC.BL",
+        "coord": [
+            121.508511,
+            25.042274
+        ],
+        "title": {
+            "en": "Ximen",
+            "zh-Hant": "西門",
+            "ja": "西門"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.BL.TaipeiMainStation",
+        "railway": "TRTC.BL",
+        "coord": [
+            121.517415,
+            25.04631
+        ],
+        "title": {
+            "en": "Taipei Main Station",
+            "zh-Hant": "台北車站",
+            "ja": "台北車站"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.BL.ShandaoTemple",
+        "railway": "TRTC.BL",
+        "coord": [
+            121.523885,
+            25.04468
+        ],
+        "title": {
+            "en": "Shandao Temple",
+            "zh-Hant": "善導寺",
+            "ja": "善導寺"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.BL.ZhongxiaoXinsheng",
+        "railway": "TRTC.BL",
+        "coord": [
+            121.5328,
+            25.0423
+        ],
+        "title": {
+            "en": "Zhongxiao Xinsheng",
+            "zh-Hant": "忠孝新生",
+            "ja": "忠孝新生"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.BL.ZhongxiaoFuxing",
+        "railway": "TRTC.BL",
+        "coord": [
+            121.543769,
+            25.041633
+        ],
+        "title": {
+            "en": "Zhongxiao Fuxing",
+            "zh-Hant": "忠孝復興",
+            "ja": "忠孝復興"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.BL.ZhongxiaoDunhua",
+        "railway": "TRTC.BL",
+        "coord": [
+            121.55045,
+            25.041505
+        ],
+        "title": {
+            "en": "Zhongxiao Dunhua",
+            "zh-Hant": "忠孝敦化",
+            "ja": "忠孝敦化"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.BL.SunYat-SenMemorialHall",
+        "railway": "TRTC.BL",
+        "coord": [
+            121.557815,
+            25.04137
+        ],
+        "title": {
+            "en": "Sun Yat-Sen Memorial Hall",
+            "zh-Hant": "國父紀念館",
+            "ja": "國父紀念館"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.BL.TaipeiCityHall",
+        "railway": "TRTC.BL",
+        "coord": [
+            121.565685,
+            25.041135
+        ],
+        "title": {
+            "en": "Taipei City Hall",
+            "zh-Hant": "市政府",
+            "ja": "市政府"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.BL.Yongchun",
+        "railway": "TRTC.BL",
+        "coord": [
+            121.5762,
+            25.040855
+        ],
+        "title": {
+            "en": "Yongchun",
+            "zh-Hant": "永春",
+            "ja": "永春"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.BL.Houshanpi",
+        "railway": "TRTC.BL",
+        "coord": [
+            121.58227,
+            25.044715
+        ],
+        "title": {
+            "en": "Houshanpi",
+            "zh-Hant": "後山埤",
+            "ja": "後山埤"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.BL.Kunyang",
+        "railway": "TRTC.BL",
+        "coord": [
+            121.593228,
+            25.050459
+        ],
+        "title": {
+            "en": "Kunyang",
+            "zh-Hant": "昆陽",
+            "ja": "昆陽"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.BL.Nangang",
+        "railway": "TRTC.BL",
+        "coord": [
+            121.60697,
+            25.052035
+        ],
+        "title": {
+            "en": "Nangang",
+            "zh-Hant": "南港",
+            "ja": "南港"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.BL.TaipeiNangangExhibitionCenter",
+        "railway": "TRTC.BL",
+        "coord": [
+            121.616861,
+            25.054919
+        ],
+        "title": {
+            "en": "Taipei Nangang Exhibition Center",
+            "zh-Hant": "南港展覽館",
+            "ja": "南港展覽館"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.BR.TaipeiZoo",
+        "railway": "TRTC.BR",
+        "coord": [
+            121.579501,
+            24.998205
+        ],
+        "title": {
+            "en": "Taipei Zoo",
+            "zh-Hant": "動物園",
+            "ja": "動物園"
+        }
+    },
+    {
+        "id": "TRTC.BR.Muzha",
+        "railway": "TRTC.BR",
+        "coord": [
+            121.573127,
+            24.99824
+        ],
+        "title": {
+            "en": "Muzha",
+            "zh-Hant": "木柵",
+            "ja": "木柵"
+        }
+    },
+    {
+        "id": "TRTC.BR.WanfangCommunity",
+        "railway": "TRTC.BR",
+        "coord": [
+            121.568088,
+            24.99857
+        ],
+        "title": {
+            "en": "Wanfang Community",
+            "zh-Hant": "萬芳社區",
+            "ja": "萬芳社區"
+        }
+    },
+    {
+        "id": "TRTC.BR.WanfangHospital",
+        "railway": "TRTC.BR",
+        "coord": [
+            121.558092,
+            24.99932
+        ],
+        "title": {
+            "en": "Wanfang Hospital",
+            "zh-Hant": "萬芳醫院",
+            "ja": "萬芳醫院"
+        }
+    },
+    {
+        "id": "TRTC.BR.Xinhai",
+        "railway": "TRTC.BR",
+        "coord": [
+            121.557046,
+            25.005455
+        ],
+        "title": {
+            "en": "Xinhai",
+            "zh-Hant": "辛亥",
+            "ja": "辛亥"
+        }
+    },
+    {
+        "id": "TRTC.BR.Linguang",
+        "railway": "TRTC.BR",
+        "coord": [
+            121.558834,
+            25.018495
+        ],
+        "title": {
+            "en": "Linguang",
+            "zh-Hant": "麟光",
+            "ja": "麟光"
+        }
+    },
+    {
+        "id": "TRTC.BR.Liuzhangli",
+        "railway": "TRTC.BR",
+        "coord": [
+            121.55302,
+            25.02381
+        ],
+        "title": {
+            "en": "Liuzhangli",
+            "zh-Hant": "六張犁",
+            "ja": "六張犁"
+        }
+    },
+    {
+        "id": "TRTC.BR.TechnologyBuilding",
+        "railway": "TRTC.BR",
+        "coord": [
+            121.543462,
+            25.02612
+        ],
+        "title": {
+            "en": "Technology Building",
+            "zh-Hant": "科技大樓",
+            "ja": "科技大樓"
+        }
+    },
+    {
+        "id": "TRTC.BR.Daan",
+        "railway": "TRTC.BR",
+        "coord": [
+            121.54237,
+            25.033311
+        ],
+        "title": {
+            "en": "Daan",
+            "zh-Hant": "大安",
+            "ja": "大安"
+        }
+    },
+    {
+        "id": "TRTC.BR.ZhongxiaoFuxing",
+        "railway": "TRTC.BR",
+        "coord": [
+            121.543703,
+            25.041104
+        ],
+        "title": {
+            "en": "Zhongxiao Fuxing",
+            "zh-Hant": "忠孝復興",
+            "ja": "忠孝復興"
+        }
+    },
+    {
+        "id": "TRTC.BR.NanjingFuxing",
+        "railway": "TRTC.BR",
+        "coord": [
+            121.544303,
+            25.052044
+        ],
+        "title": {
+            "en": "Nanjing Fuxing",
+            "zh-Hant": "南京復興",
+            "ja": "南京復興"
+        }
+    },
+    {
+        "id": "TRTC.BR.ZhongshanJuniorHighSchool",
+        "railway": "TRTC.BR",
+        "coord": [
+            121.544215,
+            25.06085
+        ],
+        "title": {
+            "en": "Zhongshan Junior High School",
+            "zh-Hant": "中山國中",
+            "ja": "中山國中"
+        }
+    },
+    {
+        "id": "TRTC.BR.SongshanAirport",
+        "railway": "TRTC.BR",
+        "coord": [
+            121.55162,
+            25.063111
+        ],
+        "title": {
+            "en": "Songshan Airport",
+            "zh-Hant": "松山機場",
+            "ja": "松山機場"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.BR.Dazhi",
+        "railway": "TRTC.BR",
+        "coord": [
+            121.54679,
+            25.07943
+        ],
+        "title": {
+            "en": "Dazhi",
+            "zh-Hant": "大直",
+            "ja": "大直"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.BR.JiannanRd",
+        "railway": "TRTC.BR",
+        "coord": [
+            121.555582,
+            25.08483
+        ],
+        "title": {
+            "en": "Jiannan Rd.",
+            "zh-Hant": "劍南路",
+            "ja": "劍南路"
+        }
+    },
+    {
+        "id": "TRTC.BR.Xihu",
+        "railway": "TRTC.BR",
+        "coord": [
+            121.567227,
+            25.08216
+        ],
+        "title": {
+            "en": "Xihu",
+            "zh-Hant": "西湖",
+            "ja": "西湖"
+        }
+    },
+    {
+        "id": "TRTC.BR.Gangqian",
+        "railway": "TRTC.BR",
+        "coord": [
+            121.57516,
+            25.08007
+        ],
+        "title": {
+            "en": "Gangqian",
+            "zh-Hant": "港墘",
+            "ja": "港墘"
+        }
+    },
+    {
+        "id": "TRTC.BR.Wende",
+        "railway": "TRTC.BR",
+        "coord": [
+            121.584973,
+            25.078567
+        ],
+        "title": {
+            "en": "Wende",
+            "zh-Hant": "文德",
+            "ja": "文德"
+        }
+    },
+    {
+        "id": "TRTC.BR.Neihu",
+        "railway": "TRTC.BR",
+        "coord": [
+            121.594363,
+            25.083675
+        ],
+        "title": {
+            "en": "Neihu",
+            "zh-Hant": "內湖",
+            "ja": "內湖"
+        }
+    },
+    {
+        "id": "TRTC.BR.DahuPark",
+        "railway": "TRTC.BR",
+        "coord": [
+            121.602214,
+            25.083805
+        ],
+        "title": {
+            "en": "Dahu Park",
+            "zh-Hant": "大湖公園",
+            "ja": "大湖公園"
+        }
+    },
+    {
+        "id": "TRTC.BR.Huzhou",
+        "railway": "TRTC.BR",
+        "coord": [
+            121.607146,
+            25.07271
+        ],
+        "title": {
+            "en": "Huzhou",
+            "zh-Hant": "葫洲",
+            "ja": "葫洲"
+        }
+    },
+    {
+        "id": "TRTC.BR.Donghu",
+        "railway": "TRTC.BR",
+        "coord": [
+            121.611535,
+            25.067455
+        ],
+        "title": {
+            "en": "Donghu",
+            "zh-Hant": "東湖",
+            "ja": "東湖"
+        }
+    },
+    {
+        "id": "TRTC.BR.NangangSoftwarePark",
+        "railway": "TRTC.BR",
+        "coord": [
+            121.61586,
+            25.059911
+        ],
+        "title": {
+            "en": "Nangang Software Park",
+            "zh-Hant": "南港軟體園區",
+            "ja": "南港軟體園區"
+        }
+    },
+    {
+        "id": "TRTC.BR.TaipeiNangangExhibitionCenter",
+        "railway": "TRTC.BR",
+        "coord": [
+            121.616861,
+            25.054919
+        ],
+        "title": {
+            "en": "Taipei Nangang Exhibition Center",
+            "zh-Hant": "南港展覽館",
+            "ja": "南港展覽館"
+        }
+    },
+    {
+        "id": "TRTC.G.Xindian",
+        "railway": "TRTC.G",
+        "coord": [
+            121.5377,
+            24.958181
+        ],
+        "title": {
+            "en": "Xindian",
+            "zh-Hant": "新店",
+            "ja": "新店"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.G.XindianDistrictOffice",
+        "railway": "TRTC.G",
+        "coord": [
+            121.5413,
+            24.96744
+        ],
+        "title": {
+            "en": "Xindian District Office",
+            "zh-Hant": "新店區公所",
+            "ja": "新店區公所"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.G.Qizhang",
+        "railway": "TRTC.G",
+        "coord": [
+            121.543129,
+            24.975036
+        ],
+        "title": {
+            "en": "Qizhang",
+            "zh-Hant": "七張",
+            "ja": "七張"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.G.Dapinglin",
+        "railway": "TRTC.G",
+        "coord": [
+            121.54134,
+            24.98272
+        ],
+        "title": {
+            "en": "Dapinglin",
+            "zh-Hant": "大坪林",
+            "ja": "大坪林"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.G.Jingmei",
+        "railway": "TRTC.G",
+        "coord": [
+            121.540697,
+            24.992824
+        ],
+        "title": {
+            "en": "Jingmei",
+            "zh-Hant": "景美",
+            "ja": "景美"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.G.Wanlong",
+        "railway": "TRTC.G",
+        "coord": [
+            121.539008,
+            25.001978
+        ],
+        "title": {
+            "en": "Wanlong",
+            "zh-Hant": "萬隆",
+            "ja": "萬隆"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.G.Gongguan",
+        "railway": "TRTC.G",
+        "coord": [
+            121.534358,
+            25.014781
+        ],
+        "title": {
+            "en": "Gongguan",
+            "zh-Hant": "公館",
+            "ja": "公館"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.G.TaipowerBuilding",
+        "railway": "TRTC.G",
+        "coord": [
+            121.528143,
+            25.020733
+        ],
+        "title": {
+            "en": "Taipower Building",
+            "zh-Hant": "台電大樓",
+            "ja": "台電大樓"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.G.Guting",
+        "railway": "TRTC.G",
+        "coord": [
+            121.522868,
+            25.026373
+        ],
+        "title": {
+            "en": "Guting",
+            "zh-Hant": "古亭",
+            "ja": "古亭"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.G.ChiangKai-ShekMemorialHall",
+        "railway": "TRTC.G",
+        "coord": [
+            121.518273,
+            25.032767
+        ],
+        "title": {
+            "en": "Chiang Kai-Shek Memorial Hall",
+            "zh-Hant": "中正紀念堂",
+            "ja": "中正紀念堂"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.G.Xiaonanmen",
+        "railway": "TRTC.G",
+        "coord": [
+            121.510798,
+            25.035619
+        ],
+        "title": {
+            "en": "Xiaonanmen",
+            "zh-Hant": "小南門",
+            "ja": "小南門"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.G.Ximen",
+        "railway": "TRTC.G",
+        "coord": [
+            121.508511,
+            25.042274
+        ],
+        "title": {
+            "en": "Ximen",
+            "zh-Hant": "西門",
+            "ja": "西門"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.G.Beimen",
+        "railway": "TRTC.G",
+        "coord": [
+            121.510184,
+            25.049554
+        ],
+        "title": {
+            "en": "Beimen",
+            "zh-Hant": "北門",
+            "ja": "北門"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.G.Zhongshan",
+        "railway": "TRTC.G",
+        "coord": [
+            121.520364,
+            25.052621
+        ],
+        "title": {
+            "en": "Zhongshan",
+            "zh-Hant": "中山",
+            "ja": "中山"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.G.SongjiangNanjing",
+        "railway": "TRTC.G",
+        "coord": [
+            121.53285,
+            25.052693
+        ],
+        "title": {
+            "en": "Songjiang Nanjing",
+            "zh-Hant": "松江南京",
+            "ja": "松江南京"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.G.NanjingFuxing",
+        "railway": "TRTC.G",
+        "coord": [
+            121.544303,
+            25.052044
+        ],
+        "title": {
+            "en": "Nanjing Fuxing",
+            "zh-Hant": "南京復興",
+            "ja": "南京復興"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.G.TaipeiArena",
+        "railway": "TRTC.G",
+        "coord": [
+            121.552549,
+            25.05152
+        ],
+        "title": {
+            "en": "Taipei Arena",
+            "zh-Hant": "台北小巨蛋",
+            "ja": "台北小巨蛋"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.G.NanjingSanmin",
+        "railway": "TRTC.G",
+        "coord": [
+            121.56471,
+            25.051588
+        ],
+        "title": {
+            "en": "Nanjing Sanmin",
+            "zh-Hant": "南京三民",
+            "ja": "南京三民"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.G.Songshan",
+        "railway": "TRTC.G",
+        "coord": [
+            121.577706,
+            25.050118
+        ],
+        "title": {
+            "en": "Songshan",
+            "zh-Hant": "松山",
+            "ja": "松山"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.G-Xiaobitan.Xiaobitan",
+        "railway": "TRTC.G-Xiaobitan",
+        "coord": [
+            121.53058,
+            24.97188
+        ],
+        "title": {
+            "en": "Xiaobitan",
+            "zh-Hant": "小碧潭",
+            "ja": "小碧潭"
+        }
+    },
+    {
+        "id": "TRTC.O-Huilong.TaipeiBridge",
+        "railway": "TRTC.O-Huilong",
+        "coord": [
+            121.500575,
+            25.063075
+        ],
+        "title": {
+            "en": "Taipei Bridge",
+            "zh-Hant": "台北橋",
+            "ja": "台北橋"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.O-Huilong.Cailiao",
+        "railway": "TRTC.O-Huilong",
+        "coord": [
+            121.491451,
+            25.059808
+        ],
+        "title": {
+            "en": "Cailiao",
+            "zh-Hant": "菜寮",
+            "ja": "菜寮"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.O-Huilong.Sanchong",
+        "railway": "TRTC.O-Huilong",
+        "coord": [
+            121.48422,
+            25.05571
+        ],
+        "title": {
+            "en": "Sanchong",
+            "zh-Hant": "三重",
+            "ja": "三重"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.O-Huilong.XianseTemple",
+        "railway": "TRTC.O-Huilong",
+        "coord": [
+            121.47165,
+            25.04632
+        ],
+        "title": {
+            "en": "Xianse Temple",
+            "zh-Hant": "先嗇宮",
+            "ja": "先嗇宮"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.O-Huilong.Touqianzhuang",
+        "railway": "TRTC.O-Huilong",
+        "coord": [
+            121.460479,
+            25.039862
+        ],
+        "title": {
+            "en": "Touqianzhuang",
+            "zh-Hant": "頭前庄",
+            "ja": "頭前庄"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.O-Huilong.Xinzhuang",
+        "railway": "TRTC.O-Huilong",
+        "coord": [
+            121.45218,
+            25.03608
+        ],
+        "title": {
+            "en": "Xinzhuang",
+            "zh-Hant": "新莊",
+            "ja": "新莊"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.O-Huilong.FuJenUniversity",
+        "railway": "TRTC.O-Huilong",
+        "coord": [
+            121.435735,
+            25.03279
+        ],
+        "title": {
+            "en": "Fu Jen University",
+            "zh-Hant": "輔大",
+            "ja": "輔大"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.O-Huilong.Danfeng",
+        "railway": "TRTC.O-Huilong",
+        "coord": [
+            121.422422,
+            25.029073
+        ],
+        "title": {
+            "en": "Danfeng",
+            "zh-Hant": "丹鳳",
+            "ja": "丹鳳"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.O-Huilong.Huilong",
+        "railway": "TRTC.O-Huilong",
+        "coord": [
+            121.411757,
+            25.022107
+        ],
+        "title": {
+            "en": "Huilong",
+            "zh-Hant": "迴龍",
+            "ja": "迴龍"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.O-Luzhou.SanchongElementarySchool",
+        "railway": "TRTC.O-Luzhou",
+        "coord": [
+            121.49701,
+            25.070275
+        ],
+        "title": {
+            "en": "Sanchong Elementary School",
+            "zh-Hant": "三重國小",
+            "ja": "三重國小"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.O-Luzhou.SanheJuniorHighSchool",
+        "railway": "TRTC.O-Luzhou",
+        "coord": [
+            121.486455,
+            25.076794
+        ],
+        "title": {
+            "en": "Sanhe Junior High School",
+            "zh-Hant": "三和國中",
+            "ja": "三和國中"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.O-Luzhou.StLgnatiusHighSchool",
+        "railway": "TRTC.O-Luzhou",
+        "coord": [
+            121.479945,
+            25.080485
+        ],
+        "title": {
+            "en": "St.lgnatius High School",
+            "zh-Hant": "徐匯中學",
+            "ja": "徐匯中學"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.O-Luzhou.SanminSeniorHighSchool",
+        "railway": "TRTC.O-Luzhou",
+        "coord": [
+            121.473365,
+            25.085425
+        ],
+        "title": {
+            "en": "Sanmin Senior High School",
+            "zh-Hant": "三民高中",
+            "ja": "三民高中"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.O-Luzhou.Luzhou",
+        "railway": "TRTC.O-Luzhou",
+        "coord": [
+            121.46471,
+            25.09152
+        ],
+        "title": {
+            "en": "Luzhou",
+            "zh-Hant": "蘆洲",
+            "ja": "蘆洲"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.R.Xiangshan",
+        "railway": "TRTC.R",
+        "coord": [
+            121.57008,
+            25.032816
+        ],
+        "title": {
+            "en": "Xiangshan",
+            "zh-Hant": "象山",
+            "ja": "象山"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.R.Taipei101-WorldTradeCenter",
+        "railway": "TRTC.R",
+        "coord": [
+            121.562755,
+            25.033028
+        ],
+        "title": {
+            "en": "Taipei 101/World Trade Center",
+            "zh-Hant": "台北101/世貿",
+            "ja": "台北101/世貿"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.R.XinyiAnhe",
+        "railway": "TRTC.R",
+        "coord": [
+            121.55265,
+            25.03331
+        ],
+        "title": {
+            "en": "Xinyi Anhe",
+            "zh-Hant": "信義安和",
+            "ja": "信義安和"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.R.Daan",
+        "railway": "TRTC.R",
+        "coord": [
+            121.54237,
+            25.033311
+        ],
+        "title": {
+            "en": "Daan",
+            "zh-Hant": "大安",
+            "ja": "大安"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.R.DaanPark",
+        "railway": "TRTC.R",
+        "coord": [
+            121.536151,
+            25.033225
+        ],
+        "title": {
+            "en": "Daan Park",
+            "zh-Hant": "大安森林公園",
+            "ja": "大安森林公園"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.R.Dongmen",
+        "railway": "TRTC.R",
+        "coord": [
+            121.528766,
+            25.033894
+        ],
+        "title": {
+            "en": "Dongmen",
+            "zh-Hant": "東門",
+            "ja": "東門"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.R.ChiangKai-ShekMemorialHall",
+        "railway": "TRTC.R",
+        "coord": [
+            121.518273,
+            25.032767
+        ],
+        "title": {
+            "en": "Chiang Kai-Shek Memorial Hall",
+            "zh-Hant": "中正紀念堂",
+            "ja": "中正紀念堂"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.R.NTUHospital",
+        "railway": "TRTC.R",
+        "coord": [
+            121.51602,
+            25.041399
+        ],
+        "title": {
+            "en": "NTU Hospital",
+            "zh-Hant": "台大醫院",
+            "ja": "台大醫院"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.R.TaipeiMainStation",
+        "railway": "TRTC.R",
+        "coord": [
+            121.517415,
+            25.04631
+        ],
+        "title": {
+            "en": "Taipei Main Station",
+            "zh-Hant": "台北車站",
+            "ja": "台北車站"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.R.Zhongshan",
+        "railway": "TRTC.R",
+        "coord": [
+            121.520364,
+            25.052621
+        ],
+        "title": {
+            "en": "Zhongshan",
+            "zh-Hant": "中山",
+            "ja": "中山"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.R.Shuanglian",
+        "railway": "TRTC.R",
+        "coord": [
+            121.520685,
+            25.057575
+        ],
+        "title": {
+            "en": "Shuanglian",
+            "zh-Hant": "雙連",
+            "ja": "雙連"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.R.MinquanWRd",
+        "railway": "TRTC.R",
+        "coord": [
+            121.519585,
+            25.06235
+        ],
+        "title": {
+            "en": "Minquan W. Rd.",
+            "zh-Hant": "民權西路",
+            "ja": "民權西路"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.R.Yuanshan",
+        "railway": "TRTC.R",
+        "coord": [
+            121.520074,
+            25.071409
+        ],
+        "title": {
+            "en": "Yuanshan",
+            "zh-Hant": "圓山",
+            "ja": "圓山"
+        }
+    },
+    {
+        "id": "TRTC.R.Jiantan",
+        "railway": "TRTC.R",
+        "coord": [
+            121.524955,
+            25.084201
+        ],
+        "title": {
+            "en": "Jiantan",
+            "zh-Hant": "劍潭",
+            "ja": "劍潭"
+        }
+    },
+    {
+        "id": "TRTC.R.Shilin",
+        "railway": "TRTC.R",
+        "coord": [
+            121.52623,
+            25.093492
+        ],
+        "title": {
+            "en": "Shilin",
+            "zh-Hant": "士林",
+            "ja": "士林"
+        }
+    },
+    {
+        "id": "TRTC.R.Zhishan",
+        "railway": "TRTC.R",
+        "coord": [
+            121.522546,
+            25.102718
+        ],
+        "title": {
+            "en": "Zhishan",
+            "zh-Hant": "芝山",
+            "ja": "芝山"
+        }
+    },
+    {
+        "id": "TRTC.R.Mingde",
+        "railway": "TRTC.R",
+        "coord": [
+            121.518785,
+            25.109815
+        ],
+        "title": {
+            "en": "Mingde",
+            "zh-Hant": "明德",
+            "ja": "明德"
+        }
+    },
+    {
+        "id": "TRTC.R.Shipai",
+        "railway": "TRTC.R",
+        "coord": [
+            121.515572,
+            25.114455
+        ],
+        "title": {
+            "en": "Shipai",
+            "zh-Hant": "石牌",
+            "ja": "石牌"
+        }
+    },
+    {
+        "id": "TRTC.R.Qilian",
+        "railway": "TRTC.R",
+        "coord": [
+            121.506234,
+            25.120852
+        ],
+        "title": {
+            "en": "Qilian",
+            "zh-Hant": "唭哩岸",
+            "ja": "唭哩岸"
+        }
+    },
+    {
+        "id": "TRTC.R.Qiyan",
+        "railway": "TRTC.R",
+        "coord": [
+            121.50114,
+            25.12547
+        ],
+        "title": {
+            "en": "Qiyan",
+            "zh-Hant": "奇岩",
+            "ja": "奇岩"
+        }
+    },
+    {
+        "id": "TRTC.R.Beitou",
+        "railway": "TRTC.R",
+        "coord": [
+            121.498648,
+            25.131819
+        ],
+        "title": {
+            "en": "Beitou",
+            "zh-Hant": "北投",
+            "ja": "北投"
+        }
+    },
+    {
+        "id": "TRTC.R.Fuxinggang",
+        "railway": "TRTC.R",
+        "coord": [
+            121.485457,
+            25.137474
+        ],
+        "title": {
+            "en": "Fuxinggang",
+            "zh-Hant": "復興崗",
+            "ja": "復興崗"
+        }
+    },
+    {
+        "id": "TRTC.R.Zhongyi",
+        "railway": "TRTC.R",
+        "coord": [
+            121.473293,
+            25.131041
+        ],
+        "title": {
+            "en": "Zhongyi",
+            "zh-Hant": "忠義",
+            "ja": "忠義"
+        }
+    },
+    {
+        "id": "TRTC.R.Guandu",
+        "railway": "TRTC.R",
+        "coord": [
+            121.4671,
+            25.12563
+        ],
+        "title": {
+            "en": "Guandu",
+            "zh-Hant": "關渡",
+            "ja": "關渡"
+        }
+    },
+    {
+        "id": "TRTC.R.Zhuwei",
+        "railway": "TRTC.R",
+        "coord": [
+            121.45955,
+            25.1369
+        ],
+        "title": {
+            "en": "Zhuwei",
+            "zh-Hant": "竹圍",
+            "ja": "竹圍"
+        }
+    },
+    {
+        "id": "TRTC.R.Hongshulin",
+        "railway": "TRTC.R",
+        "coord": [
+            121.4588,
+            25.15399
+        ],
+        "title": {
+            "en": "Hongshulin",
+            "zh-Hant": "紅樹林",
+            "ja": "紅樹林"
+        }
+    },
+    {
+        "id": "TRTC.R.Tamsui",
+        "railway": "TRTC.R",
+        "coord": [
+            121.445805,
+            25.167745
+        ],
+        "title": {
+            "en": "Tamsui",
+            "zh-Hant": "淡水",
+            "ja": "淡水"
+        }
+    },
+    {
+        "id": "TRTC.R-Xinbeitou.Xinbeitou",
+        "railway": "TRTC.R-Xinbeitou",
+        "coord": [
+            121.502595,
+            25.136931
+        ],
+        "title": {
+            "en": "Xinbeitou",
+            "zh-Hant": "新北投",
+            "ja": "新北投"
+        }
+    },
+    {
+        "id": "TRTC.O-Huilong.Nanshijiao",
+        "railway": "TRTC.O-Huilong",
+        "coord": [
+            121.509237,
+            24.990065
+        ],
+        "title": {
+            "en": "Nanshijiao",
+            "zh-Hant": "南勢角",
+            "ja": "南勢角"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.O-Luzhou.Nanshijiao",
+        "railway": "TRTC.O-Luzhou",
+        "coord": [
+            121.509237,
+            24.990065
+        ],
+        "title": {
+            "en": "Nanshijiao",
+            "zh-Hant": "南勢角",
+            "ja": "南勢角"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.O-Huilong.Jingan",
+        "railway": "TRTC.O-Huilong",
+        "coord": [
+            121.505114,
+            24.99392
+        ],
+        "title": {
+            "en": "Jingan",
+            "zh-Hant": "景安",
+            "ja": "景安"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.O-Luzhou.Jingan",
+        "railway": "TRTC.O-Luzhou",
+        "coord": [
+            121.505114,
+            24.99392
+        ],
+        "title": {
+            "en": "Jingan",
+            "zh-Hant": "景安",
+            "ja": "景安"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.O-Huilong.YonganMarket",
+        "railway": "TRTC.O-Huilong",
+        "coord": [
+            121.511225,
+            25.002895
+        ],
+        "title": {
+            "en": "Yongan Market",
+            "zh-Hant": "永安市場",
+            "ja": "永安市場"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.O-Luzhou.YonganMarket",
+        "railway": "TRTC.O-Luzhou",
+        "coord": [
+            121.511225,
+            25.002895
+        ],
+        "title": {
+            "en": "Yongan Market",
+            "zh-Hant": "永安市場",
+            "ja": "永安市場"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.O-Huilong.Dingxi",
+        "railway": "TRTC.O-Huilong",
+        "coord": [
+            121.515398,
+            25.01308
+        ],
+        "title": {
+            "en": "Dingxi",
+            "zh-Hant": "頂溪",
+            "ja": "頂溪"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.O-Luzhou.Dingxi",
+        "railway": "TRTC.O-Luzhou",
+        "coord": [
+            121.515398,
+            25.01308
+        ],
+        "title": {
+            "en": "Dingxi",
+            "zh-Hant": "頂溪",
+            "ja": "頂溪"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.O-Huilong.Guting",
+        "railway": "TRTC.O-Huilong",
+        "coord": [
+            121.522868,
+            25.026373
+        ],
+        "title": {
+            "en": "Guting",
+            "zh-Hant": "古亭",
+            "ja": "古亭"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.O-Luzhou.Guting",
+        "railway": "TRTC.O-Luzhou",
+        "coord": [
+            121.522868,
+            25.026373
+        ],
+        "title": {
+            "en": "Guting",
+            "zh-Hant": "古亭",
+            "ja": "古亭"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.O-Huilong.Dongmen",
+        "railway": "TRTC.O-Huilong",
+        "coord": [
+            121.528766,
+            25.033894
+        ],
+        "title": {
+            "en": "Dongmen",
+            "zh-Hant": "東門",
+            "ja": "東門"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.O-Luzhou.Dongmen",
+        "railway": "TRTC.O-Luzhou",
+        "coord": [
+            121.528766,
+            25.033894
+        ],
+        "title": {
+            "en": "Dongmen",
+            "zh-Hant": "東門",
+            "ja": "東門"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.O-Huilong.ZhongxiaoXinsheng",
+        "railway": "TRTC.O-Huilong",
+        "coord": [
+            121.532856,
+            25.041797
+        ],
+        "title": {
+            "en": "Zhongxiao Xinsheng",
+            "zh-Hant": "忠孝新生",
+            "ja": "忠孝新生"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.O-Luzhou.ZhongxiaoXinsheng",
+        "railway": "TRTC.O-Luzhou",
+        "coord": [
+            121.532856,
+            25.041797
+        ],
+        "title": {
+            "en": "Zhongxiao Xinsheng",
+            "zh-Hant": "忠孝新生",
+            "ja": "忠孝新生"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.O-Huilong.SongjiangNanjing",
+        "railway": "TRTC.O-Huilong",
+        "coord": [
+            121.53285,
+            25.052693
+        ],
+        "title": {
+            "en": "Songjiang Nanjing",
+            "zh-Hant": "松江南京",
+            "ja": "松江南京"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.O-Luzhou.SongjiangNanjing",
+        "railway": "TRTC.O-Luzhou",
+        "coord": [
+            121.53285,
+            25.052693
+        ],
+        "title": {
+            "en": "Songjiang Nanjing",
+            "zh-Hant": "松江南京",
+            "ja": "松江南京"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.O-Huilong.XingtianTemple",
+        "railway": "TRTC.O-Huilong",
+        "coord": [
+            121.53315,
+            25.05924
+        ],
+        "title": {
+            "en": "Xingtian Temple",
+            "zh-Hant": "行天宮",
+            "ja": "行天宮"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.O-Luzhou.XingtianTemple",
+        "railway": "TRTC.O-Luzhou",
+        "coord": [
+            121.53315,
+            25.05924
+        ],
+        "title": {
+            "en": "Xingtian Temple",
+            "zh-Hant": "行天宮",
+            "ja": "行天宮"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.O-Huilong.ZhongshanElementarySchool",
+        "railway": "TRTC.O-Huilong",
+        "coord": [
+            121.526609,
+            25.062665
+        ],
+        "title": {
+            "en": "Zhongshan Elementary School",
+            "zh-Hant": "中山國小",
+            "ja": "中山國小"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.O-Luzhou.ZhongshanElementarySchool",
+        "railway": "TRTC.O-Luzhou",
+        "coord": [
+            121.526609,
+            25.062665
+        ],
+        "title": {
+            "en": "Zhongshan Elementary School",
+            "zh-Hant": "中山國小",
+            "ja": "中山國小"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.O-Huilong.MinquanWRd",
+        "railway": "TRTC.O-Huilong",
+        "coord": [
+            121.519585,
+            25.06235
+        ],
+        "title": {
+            "en": "Minquan W. Rd.",
+            "zh-Hant": "民權西路",
+            "ja": "民權西路"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.O-Luzhou.MinquanWRd",
+        "railway": "TRTC.O-Luzhou",
+        "coord": [
+            121.519585,
+            25.06235
+        ],
+        "title": {
+            "en": "Minquan W. Rd.",
+            "zh-Hant": "民權西路",
+            "ja": "民權西路"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.O-Huilong.Daqiaotou",
+        "railway": "TRTC.O-Huilong",
+        "coord": [
+            121.513003,
+            25.06322
+        ],
+        "title": {
+            "en": "Daqiaotou",
+            "zh-Hant": "大橋頭",
+            "ja": "大橋頭"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.O-Luzhou.Daqiaotou",
+        "railway": "TRTC.O-Luzhou",
+        "coord": [
+            121.513003,
+            25.06322
+        ],
+        "title": {
+            "en": "Daqiaotou",
+            "zh-Hant": "大橋頭",
+            "ja": "大橋頭"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.G-Xiaobitan.Qizhang",
+        "railway": "TRTC.G-Xiaobitan",
+        "coord": [
+            121.543129,
+            24.975036
+        ],
+        "title": {
+            "en": "Qizhang",
+            "zh-Hant": "七張",
+            "ja": "七張"
+        },
+        "altitude": -1
+    },
+    {
+        "id": "TRTC.R-Xinbeitou.Beitou",
+        "railway": "TRTC.R-Xinbeitou",
+        "coord": [
+            121.498648,
+            25.131819
+        ],
+        "title": {
+            "en": "Beitou",
+            "zh-Hant": "北投",
+            "ja": "北投"
         }
     }
 ]

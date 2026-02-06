@@ -128,7 +128,7 @@
         }
     },
     {
-        "id": "TR.110G-Tze-ChiangLtd.Express(3000)",
+        "id": "TR.110G-Tze-ChiangLtdExpress(3000)",
         "title": {
             "en": "Tze-Chiang Ltd. Express(3000)",
             "zh-Hant": "自強(3000)(EMU3000 型電車)",
@@ -136,7 +136,7 @@
         }
     },
     {
-        "id": "TR.110H-Tze-ChiangLtd.Express(3000)",
+        "id": "TR.110H-Tze-ChiangLtdExpress(3000)",
         "title": {
             "en": "Tze-Chiang Ltd. Express(3000)",
             "zh-Hant": "自強(3000)(EMU3000 型電車)",
@@ -144,7 +144,7 @@
         }
     },
     {
-        "id": "TR.110K-Tze-ChiangLtd.Express(3000)",
+        "id": "TR.110K-Tze-ChiangLtdExpress(3000)",
         "title": {
             "en": "Tze-Chiang Ltd. Express(3000)",
             "zh-Hant": "自強(3000)(EMU3000 型電車)",
@@ -152,7 +152,7 @@
         }
     },
     {
-        "id": "TR.110M-Tze-ChiangLtd.Express(3000)",
+        "id": "TR.110M-Tze-ChiangLtdExpress(3000)",
         "title": {
             "en": "Tze-Chiang Ltd. Express(3000)",
             "zh-Hant": "自強(3000)(EMU3000 型電車)",
@@ -501,6 +501,14 @@
             "en": "Local",
             "zh-Hant": "站站停",
             "ja": "各停"
+        }
+    },
+    {
+        "id": "Local",
+        "title": {
+            "en": "Local",
+            "zh-Hant": "普通",
+            "js": "各停"
         }
     }
 ]

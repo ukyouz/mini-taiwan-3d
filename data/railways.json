@@ -8,7 +8,7 @@
         },
         "ascending": "Westbound",
         "descending": "Eastbound",
-        "color": "#00529D",
+        "color": "#646464",
         "carComposition": 10,
         "dynamic": true,
         "stations": [
@@ -25,7 +25,7 @@
         },
         "ascending": "Southbound",
         "descending": "Northbound",
-        "color": "#00529D",
+        "color": "#646464",
         "carComposition": 10,
         "dynamic": true,
         "stations": [
@@ -112,7 +112,7 @@
         },
         "ascending": "Eastbound",
         "descending": "Westbound",
-        "color": "#00529D",
+        "color": "#646464",
         "carComposition": 10,
         "dynamic": true,
         "stations": [
@@ -134,7 +134,7 @@
         },
         "ascending": "Northbound",
         "descending": "Southbound",
-        "color": "#00529D",
+        "color": "#646464",
         "carComposition": 10,
         "dynamic": true,
         "stations": [
@@ -151,7 +151,7 @@
         },
         "ascending": "Eastbound",
         "descending": "Westbound",
-        "color": "#00529D",
+        "color": "#646464",
         "carComposition": 10,
         "dynamic": true,
         "stations": [
@@ -178,7 +178,7 @@
         },
         "ascending": "Westbound",
         "descending": "Eastbound",
-        "color": "#00529D",
+        "color": "#646464",
         "carComposition": 10,
         "dynamic": true,
         "stations": [
@@ -200,7 +200,7 @@
         },
         "ascending": "Northbound",
         "descending": "Southbound",
-        "color": "#00529D",
+        "color": "#646464",
         "carComposition": 10,
         "dynamic": true,
         "stations": [
@@ -218,7 +218,7 @@
         },
         "ascending": "Eastbound",
         "descending": "Westbound",
-        "color": "#00529D",
+        "color": "#646464",
         "carComposition": 10,
         "dynamic": true,
         "stations": [
@@ -236,7 +236,7 @@
         },
         "ascending": "Eastbound",
         "descending": "Westbound",
-        "color": "#00529D",
+        "color": "#646464",
         "carComposition": 10,
         "dynamic": true,
         "stations": [
@@ -275,7 +275,7 @@
         },
         "ascending": "Eastbound",
         "descending": "Westbound",
-        "color": "#00529D",
+        "color": "#646464",
         "carComposition": 10,
         "dynamic": true,
         "stations": [
@@ -292,7 +292,7 @@
         },
         "ascending": "Southbound",
         "descending": "Northbound",
-        "color": "#00529D",
+        "color": "#646464",
         "carComposition": 10,
         "dynamic": true,
         "stations": [
@@ -360,7 +360,7 @@
         },
         "ascending": "Southbound",
         "descending": "Northbound",
-        "color": "#00529D",
+        "color": "#646464",
         "carComposition": 10,
         "dynamic": true,
         "stations": [
@@ -435,7 +435,7 @@
         },
         "ascending": "Southbound",
         "descending": "Northbound",
-        "color": "#00529D",
+        "color": "#646464",
         "carComposition": 10,
         "dynamic": true,
         "stations": [
@@ -484,6 +484,261 @@
             "THSR.Main.Chiayi",
             "THSR.Main.Tainan",
             "THSR.Main.Zuoying"
+        ]
+    },
+    {
+        "id": "TRTC.BL",
+        "title": {
+            "en": "Bannan Line",
+            "zh-Hant": "板南線",
+            "ja": "板南線"
+        },
+        "ascending": "Inbound",
+        "descending": "Outbound",
+        "color": "#0070BD",
+        "carComposition": 10,
+        "dynamic": true,
+        "stations": [
+            "TRTC.BL.Dingpu",
+            "TRTC.BL.Yongning",
+            "TRTC.BL.Tucheng",
+            "TRTC.BL.Haishan",
+            "TRTC.BL.FarEasternHospital",
+            "TRTC.BL.Fuzhong",
+            "TRTC.BL.Banqiao",
+            "TRTC.BL.Xinpu",
+            "TRTC.BL.Jiangzicui",
+            "TRTC.BL.LongshanTemple",
+            "TRTC.BL.Ximen",
+            "TRTC.BL.TaipeiMainStation",
+            "TRTC.BL.ShandaoTemple",
+            "TRTC.BL.ZhongxiaoXinsheng",
+            "TRTC.BL.ZhongxiaoFuxing",
+            "TRTC.BL.ZhongxiaoDunhua",
+            "TRTC.BL.SunYat-SenMemorialHall",
+            "TRTC.BL.TaipeiCityHall",
+            "TRTC.BL.Yongchun",
+            "TRTC.BL.Houshanpi",
+            "TRTC.BL.Kunyang",
+            "TRTC.BL.Nangang",
+            "TRTC.BL.TaipeiNangangExhibitionCenter"
+        ]
+    },
+    {
+        "id": "TRTC.BR",
+        "title": {
+            "en": "Wenhu Line",
+            "zh-Hant": "文湖線",
+            "ja": "文湖線"
+        },
+        "ascending": "Inbound",
+        "descending": "Outbound",
+        "color": "#C48C32",
+        "carComposition": 10,
+        "dynamic": true,
+        "stations": [
+            "TRTC.BR.TaipeiZoo",
+            "TRTC.BR.Muzha",
+            "TRTC.BR.WanfangCommunity",
+            "TRTC.BR.WanfangHospital",
+            "TRTC.BR.Xinhai",
+            "TRTC.BR.Linguang",
+            "TRTC.BR.Liuzhangli",
+            "TRTC.BR.TechnologyBuilding",
+            "TRTC.BR.Daan",
+            "TRTC.BR.ZhongxiaoFuxing",
+            "TRTC.BR.NanjingFuxing",
+            "TRTC.BR.ZhongshanJuniorHighSchool",
+            "TRTC.BR.SongshanAirport",
+            "TRTC.BR.Dazhi",
+            "TRTC.BR.JiannanRd",
+            "TRTC.BR.Xihu",
+            "TRTC.BR.Gangqian",
+            "TRTC.BR.Wende",
+            "TRTC.BR.Neihu",
+            "TRTC.BR.DahuPark",
+            "TRTC.BR.Huzhou",
+            "TRTC.BR.Donghu",
+            "TRTC.BR.NangangSoftwarePark",
+            "TRTC.BR.TaipeiNangangExhibitionCenter"
+        ]
+    },
+    {
+        "id": "TRTC.G-Xiaobitan",
+        "title": {
+            "en": "Songshan-Xindian Line",
+            "zh-Hant": "松山新店線",
+            "ja": "松山新店線"
+        },
+        "ascending": "Inbound",
+        "descending": "Outbound",
+        "color": "#00865A",
+        "carComposition": 10,
+        "dynamic": true,
+        "stations": [
+            "TRTC.G-Xiaobitan.Xiaobitan",
+            "TRTC.G-Xiaobitan.Qizhang"
+        ]
+    },
+    {
+        "id": "TRTC.G",
+        "title": {
+            "en": "Songshan-Xindian Line",
+            "zh-Hant": "松山新店線",
+            "ja": "松山新店線"
+        },
+        "ascending": "Inbound",
+        "descending": "Outbound",
+        "color": "#00865A",
+        "carComposition": 10,
+        "dynamic": true,
+        "stations": [
+            "TRTC.G.Xindian",
+            "TRTC.G.XindianDistrictOffice",
+            "TRTC.G.Qizhang",
+            "TRTC.G.Dapinglin",
+            "TRTC.G.Jingmei",
+            "TRTC.G.Wanlong",
+            "TRTC.G.Gongguan",
+            "TRTC.G.TaipowerBuilding",
+            "TRTC.G.Guting",
+            "TRTC.G.ChiangKai-ShekMemorialHall",
+            "TRTC.G.Xiaonanmen",
+            "TRTC.G.Ximen",
+            "TRTC.G.Beimen",
+            "TRTC.G.Zhongshan",
+            "TRTC.G.SongjiangNanjing",
+            "TRTC.G.NanjingFuxing",
+            "TRTC.G.TaipeiArena",
+            "TRTC.G.NanjingSanmin",
+            "TRTC.G.Songshan"
+        ]
+    },
+    {
+        "id": "TRTC.O-Huilong",
+        "title": {
+            "en": "Zhonghe-Xinlu Line",
+            "zh-Hant": "中和新蘆線",
+            "ja": "中和新蘆線"
+        },
+        "ascending": "Inbound",
+        "descending": "Outbound",
+        "color": "#F8B61D",
+        "carComposition": 10,
+        "dynamic": true,
+        "stations": [
+            "TRTC.O-Huilong.Nanshijiao",
+            "TRTC.O-Huilong.Jingan",
+            "TRTC.O-Huilong.YonganMarket",
+            "TRTC.O-Huilong.Dingxi",
+            "TRTC.O-Huilong.Guting",
+            "TRTC.O-Huilong.Dongmen",
+            "TRTC.O-Huilong.ZhongxiaoXinsheng",
+            "TRTC.O-Huilong.SongjiangNanjing",
+            "TRTC.O-Huilong.XingtianTemple",
+            "TRTC.O-Huilong.ZhongshanElementarySchool",
+            "TRTC.O-Huilong.MinquanWRd",
+            "TRTC.O-Huilong.Daqiaotou",
+            "TRTC.O-Huilong.TaipeiBridge",
+            "TRTC.O-Huilong.Cailiao",
+            "TRTC.O-Huilong.Sanchong",
+            "TRTC.O-Huilong.XianseTemple",
+            "TRTC.O-Huilong.Touqianzhuang",
+            "TRTC.O-Huilong.Xinzhuang",
+            "TRTC.O-Huilong.FuJenUniversity",
+            "TRTC.O-Huilong.Danfeng",
+            "TRTC.O-Huilong.Huilong"
+        ]
+    },
+    {
+        "id": "TRTC.O-Luzhou",
+        "title": {
+            "en": "Zhonghe-Xinlu Line",
+            "zh-Hant": "中和新蘆線",
+            "ja": "中和新蘆線"
+        },
+        "ascending": "Inbound",
+        "descending": "Outbound",
+        "color": "#F8B61D",
+        "carComposition": 10,
+        "dynamic": true,
+        "stations": [
+            "TRTC.O-Luzhou.Nanshijiao",
+            "TRTC.O-Luzhou.Jingan",
+            "TRTC.O-Luzhou.YonganMarket",
+            "TRTC.O-Luzhou.Dingxi",
+            "TRTC.O-Luzhou.Guting",
+            "TRTC.O-Luzhou.Dongmen",
+            "TRTC.O-Luzhou.ZhongxiaoXinsheng",
+            "TRTC.O-Luzhou.SongjiangNanjing",
+            "TRTC.O-Luzhou.XingtianTemple",
+            "TRTC.O-Luzhou.ZhongshanElementarySchool",
+            "TRTC.O-Luzhou.MinquanWRd",
+            "TRTC.O-Luzhou.Daqiaotou",
+            "TRTC.O-Luzhou.SanchongElementarySchool",
+            "TRTC.O-Luzhou.SanheJuniorHighSchool",
+            "TRTC.O-Luzhou.StLgnatiusHighSchool",
+            "TRTC.O-Luzhou.SanminSeniorHighSchool",
+            "TRTC.O-Luzhou.Luzhou"
+        ]
+    },
+    {
+        "id": "TRTC.R-Xinbeitou",
+        "title": {
+            "en": "Tamsui-Xinyi Line",
+            "zh-Hant": "淡水信義線",
+            "ja": "淡水信義線"
+        },
+        "ascending": "Inbound",
+        "descending": "Outbound",
+        "color": "#E3002C",
+        "carComposition": 10,
+        "dynamic": true,
+        "stations": [
+            "TRTC.R-Xinbeitou.Xinbeitou",
+            "TRTC.R-Xinbeitou.Beitou"
+        ]
+    },
+    {
+        "id": "TRTC.R",
+        "title": {
+            "en": "Tamsui-Xinyi Line",
+            "zh-Hant": "淡水信義線",
+            "ja": "淡水信義線"
+        },
+        "ascending": "Inbound",
+        "descending": "Outbound",
+        "color": "#E3002C",
+        "carComposition": 10,
+        "dynamic": true,
+        "stations": [
+            "TRTC.R.Xiangshan",
+            "TRTC.R.Taipei101-WorldTradeCenter",
+            "TRTC.R.XinyiAnhe",
+            "TRTC.R.Daan",
+            "TRTC.R.DaanPark",
+            "TRTC.R.Dongmen",
+            "TRTC.R.ChiangKai-ShekMemorialHall",
+            "TRTC.R.NTUHospital",
+            "TRTC.R.TaipeiMainStation",
+            "TRTC.R.Zhongshan",
+            "TRTC.R.Shuanglian",
+            "TRTC.R.MinquanWRd",
+            "TRTC.R.Yuanshan",
+            "TRTC.R.Jiantan",
+            "TRTC.R.Shilin",
+            "TRTC.R.Zhishan",
+            "TRTC.R.Mingde",
+            "TRTC.R.Shipai",
+            "TRTC.R.Qilian",
+            "TRTC.R.Qiyan",
+            "TRTC.R.Beitou",
+            "TRTC.R.Fuxinggang",
+            "TRTC.R.Zhongyi",
+            "TRTC.R.Guandu",
+            "TRTC.R.Zhuwei",
+            "TRTC.R.Hongshulin",
+            "TRTC.R.Tamsui"
         ]
     }
 ]
