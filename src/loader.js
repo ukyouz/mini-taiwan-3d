@@ -64,9 +64,9 @@ function getTimetableFileName(clock) {
 function getExtraTimetableFileNames(clock) {
     const calendar = clock.getCalendar();
 
-    if (calendar === 'Holiday') {
-        return ['timetable-holiday.json.gz'];
-    }
+    // if (calendar === 'Holiday') {
+    //     return ['timetable-holiday.json.gz'];
+    // }
     return [];
 }
 

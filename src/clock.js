@@ -188,11 +188,11 @@ export default class {
             month = date.getMonth(),
             day = date.getDate();
 
-        if (JapaneseHolidays.isHoliday(date) ||
-            (month === 11 && day >= 30) ||
-            (month === 0 && day <= 3)) {
-            return 'Holiday';
-        }
+        // if (JapaneseHolidays.isHoliday(date) ||
+        //     (month === 11 && day >= 30) ||
+        //     (month === 0 && day <= 3)) {
+        //     return 'Holiday';
+        // }
         return [
             "Sunday",
             "Monday",

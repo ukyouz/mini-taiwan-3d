@@ -28,6 +28,6 @@ export default async function() {
     await process(data, 'Friday', 'friday');
     await process(data, 'Saturday', 'saturday');
     await process(data, 'Sunday', 'sunday');
-    await process(data, 'Holiday', 'holiday');
+    // await process(data, 'Holiday', 'holiday');
 
 }

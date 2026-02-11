@@ -213,11 +213,11 @@ export default class extends Evented {
             const lang = me._lang;
             let dateString = date.toLocaleDateString(lang, DATE_FORMAT);
 
-            if (lang === 'ja' && JapaneseHolidays.isHoliday(date)) {
-                dateString = dateString.replace(/\(.+\)/, '(祝)');
-            }
+            // if (lang === 'ja' && JapaneseHolidays.isHoliday(date)) {
+            //     dateString = dateString.replace(/\(.+\)/, '(祝)');
+            // }
             element.querySelector('#date').innerHTML = dateString;
-            element.querySelector('#time').innerHTML = date.toLocaleTimeString(lang, {hour12: 12}) + "<small>+8</small>";
+            element.querySelector('#time').innerHTML = date.toLocaleTimeString(lang, {hour12: false}) + "<small>+8</small>";
         } else {
             const tempDate = me._tempDate;
 
