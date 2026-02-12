@@ -1268,8 +1268,8 @@ export default class extends Evented {
                 zoom = 18.5;
                 pitch = 85;
             } else {
-                zoom = 15;
-                pitch = 60;
+                zoom = 16;
+                pitch = 65;
             }
         }
 

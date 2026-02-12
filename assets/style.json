@@ -6114,7 +6114,7 @@
                     0.3,
                     0
                 ],
-                "fill-extrusion-cutoff-fade-range": 0.5,
+                "fill-extrusion-cutoff-fade-range": 0,
                 "fill-extrusion-ambient-occlusion-intensity": 0.15,
                 "fill-extrusion-color": [
                     "interpolate",
