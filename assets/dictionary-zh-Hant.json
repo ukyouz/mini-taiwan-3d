@@ -90,7 +90,7 @@
 	"transfer-and-wait": "轉車並等待 $1分",
 	"cannot-find-train": "找不到當天到達的列車",
 
-	"description": "<h3>關於 Mini Taiwan 3D</h3><p>此視覺化由<a href=\"https://nagix.github.io\" target=\"_blank\">草薙昭彦</a>提供，資料由 Jonny Cheng 搜集整理。此網頁中的公共交通資料來源是 <a href=\"https://tdx.transportdata.tw/https://tdx.transportdata.tw/\" target=\"_blank\">TDX 運輸資料流通服務</a>，網頁內容僅供參考，並非代表真實情況。</p><p>詳情請參閱 <a href=\"https://minitokyo3d.com/docs/master/\" target=\"_blank\">Mini Taiwan 3D 使用者指南</a>。原始碼公開在 <a href=\"https://github.com/ukyouz/mini-taiwan-3d\" target=\"_blank\">GitHub</a> 上面。</p>",
+	"description": "<h3>關於 Mini Taiwan 3D</h3><p>此視覺化由<a href=\"https://nagix.github.io\" target=\"_blank\">草薙昭彦</a>提供，資料由 Jonny Cheng 搜集整理。此網頁中的公共交通資料來源是 <a href=\"https://tdx.transportdata.tw/https://tdx.transportdata.tw/\" target=\"_blank\">TDX 運輸資料流通服務</a>，網頁內容僅供參考，並非代表真實情況。</p><p>詳情請參閱 <a href=\"https://zhung.com.tw/project/minitaiwan3d/\" target=\"_blank\">Mini Taiwan 3D 開發記錄</a>。原始碼公開在 <a href=\"https://github.com/ukyouz/mini-taiwan-3d\" target=\"_blank\">GitHub</a> 上面。</p>",
 	"static-update": "靜態資料更新日期",
 	"dynamic-update": "動態資料更新日期",
 	"gtfs-feed-version": "GTFS來源版本",
