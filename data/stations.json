@@ -5471,5 +5471,499 @@
             "zh-Hant": "北投",
             "ja": "北投"
         }
+    },
+    {
+        "id": "KLRT.C.Lizihnei",
+        "railway": "KLRT.C",
+        "coord": [
+            120.324651,
+            22.604625
+        ],
+        "title": {
+            "en": "Lizihnei",
+            "zh-Hant": "籬仔內",
+            "ja": "籬仔內"
+        }
+    },
+    {
+        "id": "KLRT.C.KaisyuanRueitian",
+        "railway": "KLRT.C",
+        "coord": [
+            120.319799,
+            22.599533
+        ],
+        "title": {
+            "en": "Kaisyuan Rueitian",
+            "zh-Hant": "凱旋瑞田",
+            "ja": "凱旋瑞田"
+        }
+    },
+    {
+        "id": "KLRT.C.CianjhenStar",
+        "railway": "KLRT.C",
+        "coord": [
+            120.315368,
+            22.595503
+        ],
+        "title": {
+            "en": "Cianjhen Star",
+            "zh-Hant": "前鎮之星",
+            "ja": "前鎮之星"
+        }
+    },
+    {
+        "id": "KLRT.C.KaisyuanJhonghua",
+        "railway": "KLRT.C",
+        "coord": [
+            120.310517,
+            22.593656
+        ],
+        "title": {
+            "en": "Kaisyuan Jhonghua",
+            "zh-Hant": "凱旋中華",
+            "ja": "凱旋中華"
+        }
+    },
+    {
+        "id": "KLRT.C.DreamMall",
+        "railway": "KLRT.C",
+        "coord": [
+            120.305004,
+            22.594886
+        ],
+        "title": {
+            "en": "Dream Mall",
+            "zh-Hant": "夢時代",
+            "ja": "夢時代"
+        }
+    },
+    {
+        "id": "KLRT.C.CommerceandTradePark",
+        "railway": "KLRT.C",
+        "coord": [
+            120.30266,
+            22.600961
+        ],
+        "title": {
+            "en": "Commerce and Trade Park",
+            "zh-Hant": "經貿園區",
+            "ja": "經貿園區"
+        }
+    },
+    {
+        "id": "KLRT.C.SoftwareTechnologyPark",
+        "railway": "KLRT.C",
+        "coord": [
+            120.300832,
+            22.605684
+        ],
+        "title": {
+            "en": "Software Technology Park",
+            "zh-Hant": "軟體園區",
+            "ja": "軟體園區"
+        }
+    },
+    {
+        "id": "KLRT.C.KaohsiungExhibitionCenter",
+        "railway": "KLRT.C",
+        "coord": [
+            120.298022,
+            22.610133
+        ],
+        "title": {
+            "en": "Kaohsiung Exhibition Center",
+            "zh-Hant": "高雄展覽館",
+            "ja": "高雄展覽館"
+        }
+    },
+    {
+        "id": "KLRT.C.CruiseTerminal",
+        "railway": "KLRT.C",
+        "coord": [
+            120.293424,
+            22.611587
+        ],
+        "title": {
+            "en": "Cruise Terminal",
+            "zh-Hant": "旅運中心",
+            "ja": "旅運中心"
+        }
+    },
+    {
+        "id": "KLRT.C.GloryPier",
+        "railway": "KLRT.C",
+        "coord": [
+            120.293234,
+            22.616805
+        ],
+        "title": {
+            "en": "Glory Pier",
+            "zh-Hant": "光榮碼頭",
+            "ja": "光榮碼頭"
+        }
+    },
+    {
+        "id": "KLRT.C.LovePier",
+        "railway": "KLRT.C",
+        "coord": [
+            120.289466,
+            22.619315
+        ],
+        "title": {
+            "en": "Love Pier",
+            "zh-Hant": "真愛碼頭",
+            "ja": "真愛碼頭"
+        }
+    },
+    {
+        "id": "KLRT.C.DayiPier-2",
+        "railway": "KLRT.C",
+        "coord": [
+            120.284204,
+            22.618562
+        ],
+        "title": {
+            "en": "Dayi Pier-2",
+            "zh-Hant": "駁二大義",
+            "ja": "駁二大義"
+        }
+    },
+    {
+        "id": "KLRT.C.PenglaiPier-2",
+        "railway": "KLRT.C",
+        "coord": [
+            120.279923,
+            22.6205
+        ],
+        "title": {
+            "en": "Penglai Pier-2",
+            "zh-Hant": "駁二蓬萊",
+            "ja": "駁二蓬萊"
+        }
+    },
+    {
+        "id": "KLRT.C.Hamasen",
+        "railway": "KLRT.C",
+        "coord": [
+            120.275849,
+            22.621617
+        ],
+        "title": {
+            "en": "Hamasen",
+            "zh-Hant": "哈瑪星",
+            "ja": "哈瑪星"
+        }
+    },
+    {
+        "id": "KLRT.C.ShoushanPark",
+        "railway": "KLRT.C",
+        "coord": [
+            120.278601,
+            22.626541
+        ],
+        "title": {
+            "en": "Shoushan Park",
+            "zh-Hant": "壽山公園站",
+            "ja": "壽山公園站"
+        }
+    },
+    {
+        "id": "KLRT.C.WenwuTemple",
+        "railway": "KLRT.C",
+        "coord": [
+            120.2807,
+            22.62959
+        ],
+        "title": {
+            "en": "Wenwu Temple",
+            "zh-Hant": "文武聖殿站",
+            "ja": "文武聖殿站"
+        }
+    },
+    {
+        "id": "KLRT.C.GushanDistrictOffice",
+        "railway": "KLRT.C",
+        "coord": [
+            120.282567,
+            22.635988
+        ],
+        "title": {
+            "en": "Gushan District Office",
+            "zh-Hant": "鼓山區公所站",
+            "ja": "鼓山區公所站"
+        }
+    },
+    {
+        "id": "KLRT.C.Gushan",
+        "railway": "KLRT.C",
+        "coord": [
+            120.281067,
+            22.642037
+        ],
+        "title": {
+            "en": "Gushan",
+            "zh-Hant": "鼓山",
+            "ja": "鼓山"
+        }
+    },
+    {
+        "id": "KLRT.C.Makadao",
+        "railway": "KLRT.C",
+        "coord": [
+            120.281415,
+            22.647089
+        ],
+        "title": {
+            "en": "Makadao",
+            "zh-Hant": "馬卡道",
+            "ja": "馬卡道"
+        }
+    },
+    {
+        "id": "KLRT.C.TRAMuseumofFineArts",
+        "railway": "KLRT.C",
+        "coord": [
+            120.281669,
+            22.652074
+        ],
+        "title": {
+            "en": "TRA Museum of Fine Arts",
+            "zh-Hant": "臺鐵美術館",
+            "ja": "臺鐵美術館"
+        }
+    },
+    {
+        "id": "KLRT.C.NeiweiArtsCenter",
+        "railway": "KLRT.C",
+        "coord": [
+            120.282868,
+            22.65497
+        ],
+        "title": {
+            "en": "Neiwei Arts Center",
+            "zh-Hant": "內惟藝術中心",
+            "ja": "內惟藝術中心"
+        }
+    },
+    {
+        "id": "KLRT.C.KaohsiungMuseumofFineArts",
+        "railway": "KLRT.C",
+        "coord": [
+            120.287437,
+            22.655026
+        ],
+        "title": {
+            "en": "Kaohsiung Museum of Fine Arts",
+            "zh-Hant": "美術館",
+            "ja": "美術館"
+        }
+    },
+    {
+        "id": "KLRT.C.KaohsiungMunicipalUnitedHospital",
+        "railway": "KLRT.C",
+        "coord": [
+            120.290918,
+            22.654827
+        ],
+        "title": {
+            "en": "Kaohsiung Municipal United Hospital",
+            "zh-Hant": "聯合醫院",
+            "ja": "聯合醫院"
+        }
+    },
+    {
+        "id": "KLRT.C.LonghuaElementarySchool",
+        "railway": "KLRT.C",
+        "coord": [
+            120.295042,
+            22.654493
+        ],
+        "title": {
+            "en": "Longhua Elementary School",
+            "zh-Hant": "龍華國小",
+            "ja": "龍華國小"
+        }
+    },
+    {
+        "id": "KLRT.C.HeartofLoveRiver",
+        "railway": "KLRT.C",
+        "coord": [
+            120.30282,
+            22.65604
+        ],
+        "title": {
+            "en": "Heart of Love River",
+            "zh-Hant": "愛河之心",
+            "ja": "愛河之心"
+        }
+    },
+    {
+        "id": "KLRT.C.SinshangElementarySchool",
+        "railway": "KLRT.C",
+        "coord": [
+            120.3083,
+            22.6567
+        ],
+        "title": {
+            "en": "Sinshang Elementary School",
+            "zh-Hant": "新上國小",
+            "ja": "新上國小"
+        }
+    },
+    {
+        "id": "KLRT.C.DashunMinzu",
+        "railway": "KLRT.C",
+        "coord": [
+            120.3149,
+            22.6556
+        ],
+        "title": {
+            "en": "Dashun Minzu",
+            "zh-Hant": "大順民族",
+            "ja": "大順民族"
+        }
+    },
+    {
+        "id": "KLRT.C.Wanzihnei(DashunDingshan)",
+        "railway": "KLRT.C",
+        "coord": [
+            120.3185,
+            22.6538
+        ],
+        "title": {
+            "en": "Wanzihnei(Dashun Dingshan)",
+            "zh-Hant": "灣仔內(大順鼎山)",
+            "ja": "灣仔內(大順鼎山)"
+        }
+    },
+    {
+        "id": "KLRT.C.KaohsiungIndustrialHighSchool",
+        "railway": "KLRT.C",
+        "coord": [
+            120.32405,
+            22.64983
+        ],
+        "title": {
+            "en": "Kaohsiung Industrial High School",
+            "zh-Hant": "高雄高工",
+            "ja": "高雄高工"
+        }
+    },
+    {
+        "id": "KLRT.C.Shu-TeHome-Economics&CommercialHighSchool",
+        "railway": "KLRT.C",
+        "coord": [
+            120.3262,
+            22.6442
+        ],
+        "title": {
+            "en": "Shu-Te Home-Economics & Commercial High School",
+            "zh-Hant": "樹德家商",
+            "ja": "樹德家商"
+        }
+    },
+    {
+        "id": "KLRT.C.ScienceandTechnologyMuseum",
+        "railway": "KLRT.C",
+        "coord": [
+            120.3274,
+            22.6375
+        ],
+        "title": {
+            "en": "Science and Technology Museum",
+            "zh-Hant": "科工館",
+            "ja": "科工館"
+        }
+    },
+    {
+        "id": "KLRT.C.StJosephHospital",
+        "railway": "KLRT.C",
+        "coord": [
+            120.325819,
+            22.633278
+        ],
+        "title": {
+            "en": "St.Joseph Hospital",
+            "zh-Hant": "聖功醫院",
+            "ja": "聖功醫院"
+        }
+    },
+    {
+        "id": "KLRT.C.KaisyuanPark",
+        "railway": "KLRT.C",
+        "coord": [
+            120.322785,
+            22.629433
+        ],
+        "title": {
+            "en": "Kaisyuan Park",
+            "zh-Hant": "凱旋公園站",
+            "ja": "凱旋公園站"
+        }
+    },
+    {
+        "id": "KLRT.C.DepartmentofHealth",
+        "railway": "KLRT.C",
+        "coord": [
+            120.3237,
+            22.6252
+        ],
+        "title": {
+            "en": "Department of Health",
+            "zh-Hant": "衛生局站",
+            "ja": "衛生局站"
+        }
+    },
+    {
+        "id": "KLRT.C.WucyuanElementarySchool",
+        "railway": "KLRT.C",
+        "coord": [
+            120.3252,
+            22.62121
+        ],
+        "title": {
+            "en": "Wucyuan Elementary School",
+            "zh-Hant": "五權國小站",
+            "ja": "五權國小站"
+        }
+    },
+    {
+        "id": "KLRT.C.KaisyuanWuchang",
+        "railway": "KLRT.C",
+        "coord": [
+            120.3269,
+            22.61693
+        ],
+        "title": {
+            "en": "Kaisyuan Wuchang",
+            "zh-Hant": "凱旋武昌站",
+            "ja": "凱旋武昌站"
+        }
+    },
+    {
+        "id": "KLRT.C.KaisyuanErsheng",
+        "railway": "KLRT.C",
+        "coord": [
+            120.3272,
+            22.61253
+        ],
+        "title": {
+            "en": "Kaisyuan Ersheng",
+            "zh-Hant": "凱旋二聖站",
+            "ja": "凱旋二聖站"
+        }
+    },
+    {
+        "id": "KLRT.C.LRTDepot",
+        "railway": "KLRT.C",
+        "coord": [
+            120.3261,
+            22.6085
+        ],
+        "title": {
+            "en": "LRT Depot",
+            "zh-Hant": "輕軌機廠站",
+            "ja": "輕軌機廠站"
+        }
     }
 ]
