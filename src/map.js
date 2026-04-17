@@ -2394,117 +2394,117 @@ export default class extends Evented {
     refreshRealtimeTrainData() {
         const me = this;
 
-        loadDynamicTrainData(me.secrets).then(({trainData, trainInfoData}) => {
-            const {activeTrainLookup, standbyTrainLookup, realtimeTrains, dataReferences} = me,
-                now = me.clock.getTimeOffset();
+        // loadDynamicTrainData(me.secrets).then(({trainData, trainInfoData}) => {
+        //     const {activeTrainLookup, standbyTrainLookup, realtimeTrains, dataReferences} = me,
+        //         now = me.clock.getTimeOffset();
 
-            me.resetRailwayStatus();
+        //     me.resetRailwayStatus();
 
-            for (const trainInfoRef of trainInfoData) {
-                const railway = me.railways.get(trainInfoRef.railway),
-                    status = trainInfoRef.status;
+        //     for (const trainInfoRef of trainInfoData) {
+        //         const railway = me.railways.get(trainInfoRef.railway),
+        //             status = trainInfoRef.status;
 
-                // Train information text is provided in Japanese only
-                if (railway && status && status.ja) {
-                    railway.status = status.ja;
-                    railway.text = trainInfoRef.text.ja;
-                }
+        //         // Train information text is provided in Japanese only
+        //         if (railway && status && status.ja) {
+        //             railway.status = status.ja;
+        //             railway.text = trainInfoRef.text.ja;
+        //         }
 
-                if (trainInfoRef.suspended) {
-                    railway.suspended = true;
-                }
-            }
+        //         if (trainInfoRef.suspended) {
+        //             railway.suspended = true;
+        //         }
+        //     }
 
-            standbyTrainLookup.clear();
-            realtimeTrains.clear();
+        //     standbyTrainLookup.clear();
+        //     realtimeTrains.clear();
 
-            for (const trainRef of trainData) {
-                const {id, r, n, y, d, os, ds, ts, fs, v, ad, delay, carComposition} = trainRef,
-                    aliasId = id.replace('.Marunouchi.', '.MarunouchiBranch.');
+        //     for (const trainRef of trainData) {
+        //         const {id, r, n, y, d, os, ds, ts, fs, v, ad, delay, carComposition} = trainRef,
+        //             aliasId = id.replace('.Marunouchi.', '.MarunouchiBranch.');
 
-                me.lastDynamicUpdate[trainRef.o] = trainRef.date;
-                realtimeTrains.add(trainRef.id);
+        //         me.lastDynamicUpdate[trainRef.o] = trainRef.date;
+        //         realtimeTrains.add(trainRef.id);
 
-                // Retry lookup replacing Marunouchi line with MarunouchiBranch line
-                const activeTrain = activeTrainLookup.get(id) || activeTrainLookup.get(aliasId);
+        //         // Retry lookup replacing Marunouchi line with MarunouchiBranch line
+        //         const activeTrain = activeTrainLookup.get(id) || activeTrainLookup.get(aliasId);
 
-                let marked, tracked;
+        //         let marked, tracked;
 
-                // Update the avtive train if exists
-                if (activeTrain) {
-                    if ((y && y !== activeTrain.y.id) ||
-                        (os && activeTrain.os && os[0] !== activeTrain.os[0].id) ||
-                        (ds && activeTrain.ds && ds[0] !== activeTrain.ds[0].id) ||
-                        (v && v !== (activeTrain.v || {}).id) ||
-                        (ad && !activeTrain.ad) ||
-                        (!isNaN(carComposition) && carComposition !== activeTrain.carComposition) ||
-                        (!isNaN(delay) && delay !== activeTrain.delay)) {
-                        marked = me.markedObject === activeTrain;
-                        tracked = me.trackedObject === activeTrain;
-                        me.stopTrain(activeTrain);
-                    } else {
-                        if (!activeTrain.timetable) {
-                            activeTrain.update({ts, fs}, dataReferences);
-                        }
-                        continue;
-                    }
-                }
+        //         // Update the avtive train if exists
+        //         if (activeTrain) {
+        //             if ((y && y !== activeTrain.y.id) ||
+        //                 (os && activeTrain.os && os[0] !== activeTrain.os[0].id) ||
+        //                 (ds && activeTrain.ds && ds[0] !== activeTrain.ds[0].id) ||
+        //                 (v && v !== (activeTrain.v || {}).id) ||
+        //                 (ad && !activeTrain.ad) ||
+        //                 (!isNaN(carComposition) && carComposition !== activeTrain.carComposition) ||
+        //                 (!isNaN(delay) && delay !== activeTrain.delay)) {
+        //                 marked = me.markedObject === activeTrain;
+        //                 tracked = me.trackedObject === activeTrain;
+        //                 me.stopTrain(activeTrain);
+        //             } else {
+        //                 if (!activeTrain.timetable) {
+        //                     activeTrain.update({ts, fs}, dataReferences);
+        //                 }
+        //                 continue;
+        //             }
+        //         }
 
-                let timetables = me.timetables.getByTrainId(id);
+        //         let timetables = me.timetables.getByTrainId(id);
 
-                // Retry lookup replacing Marunouchi line with MarunouchiBranch line
-                if (timetables.length === 0) {
-                    timetables = me.timetables.getByTrainId(aliasId);
-                }
+        //         // Retry lookup replacing Marunouchi line with MarunouchiBranch line
+        //         if (timetables.length === 0) {
+        //             timetables = me.timetables.getByTrainId(aliasId);
+        //         }
 
-                // Start train with timetable
-                if (timetables.length !== 0) {
-                    for (const timetable of timetables) {
-                        const train = new Train(timetable);
+        //         // Start train with timetable
+        //         if (timetables.length !== 0) {
+        //             for (const timetable of timetables) {
+        //                 const train = new Train(timetable);
 
-                        train.update({y, os, ds, v, ad, delay, carComposition}, dataReferences);
-                        if (timetable.start + (delay || 0) <= now && now <= timetable.end + (delay || 0)) {
-                            me.trainStart(train, {marked, tracked});
-                        } else {
-                            standbyTrainLookup.set(timetable.id, train);
-                        }
-                    }
-                    continue;
-                }
+        //                 train.update({y, os, ds, v, ad, delay, carComposition}, dataReferences);
+        //                 if (timetable.start + (delay || 0) <= now && now <= timetable.end + (delay || 0)) {
+        //                     me.trainStart(train, {marked, tracked});
+        //                 } else {
+        //                     standbyTrainLookup.set(timetable.id, train);
+        //                 }
+        //             }
+        //             continue;
+        //         }
 
-                if (!r) {
-                    continue;
-                }
+        //         if (!r) {
+        //             continue;
+        //         }
 
-                // Exclude Namboku line trains that connect to/from Mita line
-                if (r === RAILWAY_NAMBOKU && (os[0].startsWith(RAILWAY_MITA) || ds[0].startsWith(RAILWAY_MITA))) {
-                    continue;
-                }
+        //         // Exclude Namboku line trains that connect to/from Mita line
+        //         if (r === RAILWAY_NAMBOKU && (os[0].startsWith(RAILWAY_MITA) || ds[0].startsWith(RAILWAY_MITA))) {
+        //             continue;
+        //         }
 
-                // Exclude Arakawa line trains
-                if (r === RAILWAY_ARAKAWA) {
-                    continue;
-                }
+        //         // Exclude Arakawa line trains
+        //         if (r === RAILWAY_ARAKAWA) {
+        //             continue;
+        //         }
 
-                // Start train without timetable
-                me.trainStart(new Train({id, r, n, y, d, os, ds, ts, fs, delay, carComposition}, dataReferences));
-            }
+        //         // Start train without timetable
+        //         me.trainStart(new Train({id, r, n, y, d, os, ds, ts, fs, delay, carComposition}, dataReferences));
+        //     }
 
-            // Stop trains if they are no longer active
-            for (const train of activeTrainLookup.values()) {
-                const railway = train.r;
+        //     // Stop trains if they are no longer active
+        //     for (const train of activeTrainLookup.values()) {
+        //         const railway = train.r;
 
-                if ((((railway.status && railway.dynamic) || !train.timetable) && !realtimeTrains.has(train.id)) || railway.suspended) {
-                    me.stopTrain(train);
-                }
-            }
+        //         if ((((railway.status && railway.dynamic) || !train.timetable) && !realtimeTrains.has(train.id)) || railway.suspended) {
+        //             me.stopTrain(train);
+        //         }
+        //     }
 
             me.refreshTrains();
-            me.aboutPanel.updateContent();
-        }).catch(error => {
-            me.refreshTrains();
-            console.log(error);
-        });
+        //     me.aboutPanel.updateContent();
+        // }).catch(error => {
+        //     me.refreshTrains();
+        //     console.log(error);
+        // });
     }
 
     refreshRealtimeFlightData() {
