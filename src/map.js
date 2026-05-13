@@ -1,5 +1,5 @@
 import {featureEach} from '@turf/meta';
-import {Evented, FullscreenControl, LngLat, Map as Mapbox, MercatorCoordinate, NavigationControl} from 'mapbox-gl';
+import {Evented, FullscreenControl, LngLat, Map as Mapbox, MercatorCoordinate, NavigationControl, GeolocateControl} from 'mapbox-gl';
 import AnimatedPopup from 'mapbox-gl-animated-popup';
 import animation from './animation';
 import Clock from './clock';
@@ -76,9 +76,10 @@ export default class extends Evented {
             clockControl: true,
             searchControl: true,
             navigationControl: true,
-            fullscreenControl: true,
+            fullscreenControl: false,
             modeControl: true,
             configControl: true,
+            geolocateControl: true,
             trackingMode: configs.defaultTrackingMode,
             ecoMode: configs.defaultEcoMode,
             ecoFrameRate: configs.defaultEcoFrameRate
@@ -103,6 +104,7 @@ export default class extends Evented {
         me.fullscreenControl = options.fullscreenControl;
         me.modeControl = options.modeControl;
         me.configControl = options.configControl;
+        me.geolocateControl = options.geolocateControl;
         me.clock = new Clock();
         me.plugins = (options.plugins || []).map(plugin => new Plugin(plugin));
 
@@ -972,6 +974,19 @@ export default class extends Evented {
                 button.title = title;
                 button.setAttribute('aria-label', title);
             };
+            map.addControl(control);
+        }
+
+        if (me.geolocateControl) {
+            const control = new GeolocateControl({
+                positionOptions: {
+                    enableHighAccuracy: true
+                },
+                // When active the map will receive updates to the device's location as it changes.
+                trackUserLocation: true,
+                // Draw an arrow next to the location dot to indicate which direction the device is heading.
+                showUserHeading: true
+            });
             map.addControl(control);
         }
 
